@@ -1,0 +1,99 @@
+@import '../../color.scss';
+
+/*ABOUT SECTION*/
+
+.about-section-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    
+}
+.about-section-header {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 7vw;   
+    margin-top: 10vh; 
+
+}
+.about-section-main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.about-section-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+  
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+    width: 50%;
+    height: 100%;
+}
+.about-section-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+/* ABOUT HEADER WORDING*/
+.about-section-header-wording{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: $heading-text-colors;
+}
+.about-section-header-wording em{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: $the-dot-docoration-color;
+}
+.about-section-left{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: $secondary-font-color;
+
+}
+.about-section-left em{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: $heading-text-colors;    
+}
+
+/*ABOUT SECTION P TAGS*/
+ .about-section-summary-p {
+     margin-bottom: 1rem;
+ }
+
+ /*ABOUT SECTION PROFILE IMAGE*/
+
+ .about-section-profile-photo{
+     width: 80%;
+ }

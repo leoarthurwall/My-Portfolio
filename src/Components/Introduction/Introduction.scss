@@ -1,0 +1,114 @@
+@import '../../color.scss';
+
+/*INTRO SECTION*/
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.intro-main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.intro-main-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+  
+    width: 7vw;
+    height: 100%;
+
+}
+
+.intro-main-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    width: 93%;
+    height: 100%;
+
+    .intro-main-text-hi{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        color: $heading-text-colors;
+
+        padding: 0px;
+        margin: 0px;
+    }
+    .intro-main-text-hi em{
+        color:$secondary-font-color;
+    }
+    .intro-main-text-name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 128px;
+        color: $the-dot-docoration-color;
+
+        padding: 0px;
+        margin: 0px;
+    }
+    .intro-main-text-role {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        color: $secondary-font-color;
+
+        padding: 0px;
+        margin: 0px;
+    }
+    .intro-main-text-summary{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        color: $secondary-font-color;
+        width: 60%;
+    }
+    .intro-main-text-summary em{
+        color: $heading-text-colors;
+        font-style: normal;
+    }
+}
+
+/*INTRO BUTTON*/
+.intro-main-button {
+    background-color:$background-color;
+    border: 3px;
+    border-style: solid;
+    border-color: $heading-text-colors;
+    border-radius: 5px;
+    color: $the-dot-docoration-color;
+
+    font-family: "inter";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+    transition-duration: 0.4s;
+}
+
+.intro-main-button:hover {
+    background-color: $heading-text-colors; 
+}

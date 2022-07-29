@@ -1,0 +1,23 @@
+@import '../../color.scss';
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    align-items: flex-start;
+    margin-left: 2.5vw;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 400px;
+
+
+        .icon{
+            color: $the-dot-docoration-color;
+            margin-bottom: 1rem;
+            align-items: left;
+
+        }
+    }
