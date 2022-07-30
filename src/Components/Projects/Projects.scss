@@ -1,16 +1,16 @@
 @import '../../color.scss';
 
 
-/*PORTFOLIO SECTION*/
+/*PROJECTS SECTION*/
 
-.portfolio-section-container{
+.projects-section-container{
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: auto;
     
 }
-.portfolio-section-header {
+.projects-section-header {
     width: 100vw;
     height: 10vh;
 
@@ -22,7 +22,7 @@
 }
 
 
-.portfolio-section-main{
+.projects-section-main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -31,17 +31,17 @@
    
 }
 
-/* PORTFOLIO HEADER WORDING*/
-.portfolio-header-wording{
+/* PROJECTS HEADER WORDING*/
+.projects-header-wording{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 44px;
 
-    color: #DD6031;
+    color:$heading-text-colors;
 }
-.portfolio-header-wording em{
+.projects-header-wording em{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -51,22 +51,22 @@
     color: #ffffff;
 }
 
-/*PORTFOLIO INDIVIDUAL CODE*/
+/*PROJECTS INDIVIDUAL CODE*/
 
-.portfolio-individual-design{
+.projects-individual-design{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.portfolio-individual-develop{
+.projects-individual-develop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.portfolio-individual-container{
+.projects-individual-container{
     display: flex;
     flex-direction: column;
     width: 25vw;
@@ -83,7 +83,7 @@
     text-align: center;
 }
 
-.portfolio-individual-image {
+.projects-individual-image {
     width: 100%;
     height: 40%;
     
@@ -91,7 +91,7 @@
     border-radius: 5px;
     font-family: "Inter";
 }
-.portfolio-individual-header {
+.projects-individual-header {
     width: 100%;
     height: 10%;
     
@@ -100,18 +100,16 @@
     font-size: 20px;   
 
 }
-.portfolio-individual-summary {
+.projects-individual-summary {
     width: 100%;
     height: 20%;
 }
-.portfolio-individual-icons {
+.projects-individual-icons {
     width: 100%;
     height: 15%;  
     border-bottom: 1.5px solid white;
-
-
 }
-.portfolio-individual-actions {
+.projects-individual-actions {
     width: 100%;
     height: 15%;
     
@@ -131,20 +129,16 @@
     list-style-type: none;
     padding-inline: 5%;
     margin-top: 5%;
-
 }
-li{
-    padding-inline: 50px;
-    align-items: center;
+
+.active-tab {
+    color: $heading-text-colors;
+    transition-duration: 0.25s;    
 }
 
 .tab-box{
-    border-bottom: 6.5px solid $the-dot-docoration-color;
+    border-bottom: 1px solid $the-dot-docoration-color;
     margin-inline: 30vw;
     margin-bottom: 5vh;
-    padding-bottom: 2vh;
-    border-bottom: 6.5px solid white;
-    margin-inline: 30vw;
-    margin-bottom: 5vh;
-    padding-bottom: 2vh;
+    padding-bottom: 0;
 }

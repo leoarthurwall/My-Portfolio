@@ -1,6 +1,6 @@
 import Navbar from './Components/Navbar/navbar';
 import './App.scss';
-import PortfolioSection from './Components/Portfolio/PortfolioSection/PortfolioSection';
+import PortfolioSection from './Components/Projects/ProjectsSection';
 import Contact from './Components/Contact/Contact';
 import Introduction from './Components/Introduction/Introduction'
 import About from './Components/About/about'

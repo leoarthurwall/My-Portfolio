@@ -1,5 +1,5 @@
-import DevelopmentTab from "../DevelopmentTab/DevelopmentTab";
-import DesignTab from "../DesignTab/DesignTab";
+import DevelopmentTab from "./DevelopmentTab";
+import DesignTab from "./DesignTab";
 import { useState } from "react";
 
 const Tab = () => {
@@ -22,16 +22,16 @@ const handleTab1 = () => {
        <div className="tab-box">
        <ul className="nav">
           <li
-            className={activeTab === "tab1" ? "active" : ""}
+            className={activeTab === "tab1" ? "active-tab" : ""}
             onClick={handleTab1}
           >
             Design
           </li>
           <li
-            className={activeTab === "tab2" ? "active" : ""}
+            className={activeTab === "tab2" ? "active-tab" : ""}
             onClick={handleTab2}
           >
-            Develop
+            Development
           </li>
         </ul>
        </div>

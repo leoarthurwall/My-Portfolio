@@ -73,6 +73,10 @@
         padding: 0px;
         margin: 0px;
     }
+    .intro-main-text-role em {
+        color: $heading-text-colors;
+        font-style: normal;
+    }
     .intro-main-text-summary{
         font-family: 'Inter';
         font-style: normal;
@@ -88,6 +92,7 @@
 }
 
 /*INTRO BUTTON*/
+
 .intro-main-button {
     background-color:$background-color;
     border: 3px;
@@ -105,10 +110,9 @@
     margin-top: 5%;
     margin-bottom: 5%;
 
-
-    transition-duration: 0.4s;
+    &:hover {
+        background-color: $heading-text-colors; 
+        transition-duration: 0.4s;
+    }
 }
 
-.intro-main-button:hover {
-    background-color: $heading-text-colors; 
-}

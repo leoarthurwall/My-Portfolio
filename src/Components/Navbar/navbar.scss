@@ -1,10 +1,5 @@
 @import '../../color.scss';
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
-*::before,
-*::after {
-    box-sizing: border-box;
-
-}
 
 .header {
     position: -webkit-sticky;
@@ -26,16 +21,17 @@
     display: flex;
     justify-content: center;
     position:sticky;
+    font-size: 1.5rem ;
     
     color: $heading-text-colors;
-    font-family: 'schoolbell';       
-}
+    font-family: 'schoolbell';   
+    
+    &:hover {
+        color:white;
+        font-size: 1.7rem;
+        transition-duration: 0.25s;
+        transition-timing-function: ease-out;
 
-.header {
-    .resumeLink {
-        // color: black;
-        margin-left: 15px;
-        font-size: var(--fz-xs);
     }
 }
 
@@ -53,34 +49,28 @@ ul {
         font-family: 'inter';
         padding: 0%;
 
-
-
-//
         a {
             text-decoration: none;
             text-transform: uppercase;
-            // color: orangered;
             color: $the-dot-docoration-color;
             min-width: 130px;
             padding: 10px 0;
 
             &:hover {
                 border-bottom: 3px solid $heading-text-colors;
-
+                transition-duration: 0.25s;
+                transition-timing-function: ease-out;
             }
-
         }
-
     }
 
-    #resumeLink {
+    .resumeLink {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
 
         a {
-
             min-width: 130px;
             padding: 10px 0;
             border: 3px solid $heading-text-colors;
@@ -88,99 +78,14 @@ ul {
             background-color: transparent;
             display:block;
             text-align: center;
-            
-            
-            
-            
-          
-             
             color:$the-dot-docoration-color;
         }
         &:hover {
                 border-bottom: 0px  $heading-text-colors;
                 background-color: $heading-text-colors; 
                 transition-duration: 0.4s;
-
-
+                border-radius: 5px;
             }
-        
-
     }
-
-
 }
 
-.menubar {
-    display: none;
-    // margin-right: 1.555rem;
-    // z-index: 0;
-
-}
-
-.closed .closed {
-    display: none;
-
-}
-
-
-
-//styling for mobile devices
-@media (max-width:850px) {
-    .header {
-        justify-content: space-between;
-    }
-
-    .navbar {
-        display: none;
-        transition: 1s ease;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        inset: 0;
-        background: $mobile-navbar-background;
-        transition: 14ms ease;
-    }
-
-
-    ul {
-        margin: 0 auto;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 1rem;
-
-        li {
-            margin-block: 2rem;
-
-            a {
-                font-size: 20px;
-                color:$mobile-navbar-background;
-                font-weight: bolder;
-            }
-        }
-    }
-
-    .navbar {
-        .menu {
-            display: block;
-        }
-    }
-
-    .closed .closed {
-        display: block;
-    }
-
-    // .navbar {
-    //     margin-left: .445rem;
-    // }
-
-    .menubar {
-    display: flex;
-    margin-right: 1.555rem;
-    z-index: 0;
-
-}
-}
