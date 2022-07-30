@@ -1,5 +1,5 @@
 @import '../../color.scss';
-
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 *::before,
 *::after {
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     position:sticky;
     
     color: $heading-text-colors;
-    font-family: 'inter';       
+    font-family: 'schoolbell';       
 }
 
 .header {

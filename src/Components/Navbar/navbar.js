@@ -33,7 +33,7 @@ function Navbar() {
                     smooth={true}
                     offset={-200}
                     duration={500}>
-                    <h1>HA</h1>
+                    <h1>LW</h1>
                 </Link>
                     
                 </div>
