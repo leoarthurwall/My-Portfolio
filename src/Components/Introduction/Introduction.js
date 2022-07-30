@@ -1,8 +1,4 @@
-// import { GitHub, LinkedIn, Twitter } from '@material-ui/icons';
 import React from 'react';
-import '../social-icons/socialicons.scss'
-
-// import Navbar from '../Navbar/navbar';
 import './Introduction.scss';
 
 function Introduction() {

@@ -4,14 +4,14 @@ import PortfolioSection from './Components/Portfolio/PortfolioSection/PortfolioS
 import Contact from './Components/Contact/Contact';
 import Introduction from './Components/Introduction/Introduction'
 import About from './Components/About/about'
-import Socialicons from './Components/social-icons/socialicons';
+import SideBar from './Components/SideBar/sidebar';
 // import NewNavbar from './Components/NewNavbar/NewNavbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Socialicons />
+      <SideBar />
       <section id='intro-section'>
         <Introduction />
       </section>
