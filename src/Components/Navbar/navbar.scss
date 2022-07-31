@@ -25,6 +25,7 @@
     
     color: $heading-text-colors;
     font-family: 'schoolbell';   
+    cursor: pointer;
     
     &:hover {
         color:white;
@@ -55,6 +56,8 @@ ul {
             color: $the-dot-docoration-color;
             min-width: 130px;
             padding: 10px 0;
+            cursor: pointer;
+
 
             &:hover {
                 border-bottom: 3px solid $heading-text-colors;

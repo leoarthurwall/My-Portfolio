@@ -1,4 +1,5 @@
 import React from 'react';
+import LinkButton from '../LinkButton/LinkButton';
 import './Introduction.scss';
 
 function Introduction() {
@@ -13,7 +14,7 @@ function Introduction() {
               <h1 className='intro-main-text-name'>Leo Wall</h1>
               <h2 className='intro-main-text-role'>I design & develop things<em>.</em></h2>
               <p className='intro-main-text-summary'> I'm a <em>full stack developer</em> & <em>UX designer</em>. I’ve just graduated the School of Code Bootcamp and am seeking my first opportunity.</p>
-              <button className='intro-main-button'>get in touch </button>       
+              <LinkButton hrefProp={`mailto:leowall93@gmail.com`} bodyProp={"Contact"}/>
             </text>
           </div>
         </div>

@@ -1,18 +1,8 @@
 import { Link } from "react-scroll";
+import LinkButton from "../LinkButton/LinkButton";
 import "./navbar.scss";
 
 function Navbar() {
-  const resumeLink = (
-    <a
-      className="resume-button"
-      href="/resume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      CV
-    </a>
-  );
-
   return (
     <div className="header">
       <div className="navlogo">
@@ -67,7 +57,10 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li className="resumeLink">{resumeLink}</li>
+            <li>
+    
+            <LinkButton hrefProp={`/resume.pdf`} bodyProp={"CV"}/>
+            </li>
           </ul>
         </nav>
       </div>
