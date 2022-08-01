@@ -20,14 +20,16 @@ const handleTab1 = () => {
     <div className="tab-container">
       {/* Tab nav */}
        <div className="tab-box">
-       <ul className="nav">
+       <ul className="projects-nav">
           <li
+            id="project-tab"
             className={activeTab === "tab1" ? "active-tab" : ""}
             onClick={handleTab1}
           >
             Design
           </li>
           <li
+            id="project-tab"
             className={activeTab === "tab2" ? "active-tab" : ""}
             onClick={handleTab2}
           >

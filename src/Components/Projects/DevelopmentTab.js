@@ -30,20 +30,20 @@ const DevelopmentTab = () => {
     <div className="projects-individual-develop">
       {develop.map((developProject) => (
         <div className="projects-individual-container" key={developProject.id}>
-          <div className="projects-individual-image">
-            {developProject.image}
+           <div className="projects-individual-image-div">
+            <img src="{designProject.image}" alt="project visual"></img> 
           </div>
-          <div className="projects-individual-header">
-            {developProject.title}
+          <div className="projects-individual-header-div">
+            <h3 className="projects-individual-header-body">{developProject.title}</h3>
           </div>
-          <div className="projects-individual-summary">
-            {developProject.summary}
+          <div className="projects-individual-summary-div">
+            <p className="projects-individual-summary-body"> {developProject.summary}</p>
           </div>
-          <div className="projects-individual-icons">
-            {developProject.technologies}
+          <div className="projects-individual-icons-div">
+            <p className="projects-individual-icons-body">{developProject.technologies}</p>
           </div>
-          <div className="projects-individual-actions">
-            {developProject.links}
+          <div className="projects-individual-actions-div">
+            <p className="projects-individual-actions-body">{developProject.links}</p>
           </div>
         </div>
       ))}
