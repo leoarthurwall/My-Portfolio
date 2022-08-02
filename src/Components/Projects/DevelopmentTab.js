@@ -1,49 +1,66 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+
 const DevelopmentTab = () => {
   const develop = [
     {
-      image: "develop image 1",
-      title: "develop title 1",
-      summary: "develop summary 1",
-      technologies: ["HTML", "CSS", "React", "JS"],
-      links: ["visit ", "home"],
+      image: "https://cdn.apkmonk.com/images/com.guru.cocktails.png",
+      title: "Cocktail recipe app",
+      summary:
+        "Find a cocktail you like, and the recipe to make it.",
+      technologies: ["CSS", "React", "Jest"],
+      links: ["visit", " home"],
       id: 1,
     },
     {
-      image: "develop image 2",
-      title: "develop title 2",
-      summary: "develop summary 2",
-      technologies: ["HTML", "CSS", "React", "JS"],
+      image: "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
+      title: "Fitness Tracker",
+      summary: "Set your goal. Receive a routine. Follow the plan. The fitness tracker to get you in the shape you're happy with.",
+      technologies: ["React", "AWS", "Firebase"],
       links: ["visit ", "home"],
       id: 2,
     },
     {
-      image: "develop image 3",
-      title: "develop title 3",
-      summary: "develop summary 3",
-      technologies: ["HTML", "CSS", "React", "JS"],
+      image: "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
+      title: "Anywhere Radio",
+      summary: "Listen to any radio station, any time, any place. Jump in and get conmnected",
+      technologies: ["SCSS", "NextJS", "Postman", "Express"],
       links: ["visit ", "home"],
       id: 3,
     },
   ];
 
   return (
-    <div className="projects-individual-develop">
+    <div className="projects-individual-design">
       {develop.map((developProject) => (
         <div className="projects-individual-container" key={developProject.id}>
-           <div className="projects-individual-image-div">
-            <img src="{designProject.image}" alt="project visual"></img> 
-          </div>
           <div className="projects-individual-header-div">
-            <h3 className="projects-individual-header-body">{developProject.title}</h3>
+            <h3 className="projects-individual-header-body">
+              {developProject.title}
+            </h3>
+          </div>
+          <div className="projects-individual-image-div">
+            <img className="projects-individual-image-body" src={developProject.image} alt={developProject.title}></img>
           </div>
           <div className="projects-individual-summary-div">
-            <p className="projects-individual-summary-body"> {developProject.summary}</p>
+            <p className="projects-individual-summary-body">
+              {developProject.summary}
+            </p>
           </div>
-          <div className="projects-individual-icons-div">
-            <p className="projects-individual-icons-body">{developProject.technologies}</p>
+          <div className="projects-individual-tech-div">
+            {developProject.technologies.map((tech) => (
+              <>
+                <p className="projects-individual-tech-body">{tech}</p>
+                <span className="projects-individual-tech-body-span">·</span>
+              </>
+            ))}
           </div>
           <div className="projects-individual-actions-div">
-            <p className="projects-individual-actions-body">{developProject.links}</p>
+            {/* {developProject.links.map(link => (
+            <p className="projects-individual-actions-body">{link}</p>
+          ))} */}
+            <GitHubIcon />
+            <OpenInNewIcon />
           </div>
         </div>
       ))}
