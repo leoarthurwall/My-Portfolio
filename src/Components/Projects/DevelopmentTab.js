@@ -31,7 +31,7 @@ const DevelopmentTab = () => {
   ];
 
   return (
-    <div className="projects-individual-design">
+    <div className="projects-individual-develop">
       {develop.map((developProject) => (
         <div className="projects-individual-container" key={developProject.id}>
           <div className="projects-individual-header-div">

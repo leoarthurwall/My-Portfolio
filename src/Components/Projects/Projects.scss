@@ -62,6 +62,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .projects-individual-container{
@@ -69,6 +70,8 @@
     flex-direction: column;
     width: 25vw;
     height: 60vh;
+    transition: ease-out 0.4s;
+
     
     margin-inline: 2vw;
     // background:#233455;
@@ -179,7 +182,7 @@
 
 .active-tab {
     color: $heading-text-colors;
-    transition-duration: 0.25s;   
+    transition: ease-out 0.4s;
 }
 
 
@@ -189,3 +192,5 @@
     margin-bottom: 5vh;
     padding-bottom: 0;
 }
+
+

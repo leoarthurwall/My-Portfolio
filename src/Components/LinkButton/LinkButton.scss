@@ -16,9 +16,9 @@
     font-size: 16px;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: ease-out 0.4s;
 
     &:hover {
         background-color: $heading-text-colors; 
-        transition-duration: 0.4s;
     }
 }

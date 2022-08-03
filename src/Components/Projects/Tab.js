@@ -3,11 +3,10 @@ import DesignTab from "./DesignTab";
 import { useState } from "react";
 
 const Tab = () => {
-    const [activeTab, setActiveTab] = useState("tab1");
+  const [activeTab, setActiveTab] = useState("tab1");
 
-
-//  Functions to handle Tab Switching
-const handleTab1 = () => {
+  //  Functions to handle Tab Switching
+  const handleTab1 = () => {
     // update the state to tab1
     setActiveTab("tab1");
   };
@@ -19,8 +18,8 @@ const handleTab1 = () => {
   return (
     <div className="tab-container">
       {/* Tab nav */}
-       <div className="tab-box">
-       <ul className="projects-nav">
+      <div className="tab-box">
+        <ul className="projects-nav">
           <li
             id="project-tab"
             className={activeTab === "tab1" ? "active-tab" : ""}
@@ -36,10 +35,10 @@ const handleTab1 = () => {
             Development
           </li>
         </ul>
-       </div>
-        
+      </div>
+
       <div className="outlet">
-          {activeTab === "tab1" ? <DesignTab /> : <DevelopmentTab />}
+        {activeTab === "tab1" ? <DesignTab /> : <DevelopmentTab />}
       </div>
     </div>
   );
