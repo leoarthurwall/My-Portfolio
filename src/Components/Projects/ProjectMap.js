@@ -7,8 +7,7 @@ const DesignTab = () => {
       image:
         "https://www.infobae.com/new-resizer/gvU1Me_FuUIB9sryOC9LlGtTHmc=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/5TD7NOGP5NECNAZ3L6CG7TPIK4.jpg",
       title: "The Spotify Project",
-      summary:
-        "A web app for visualizing personalized Spotify data. ",
+      summary: "A web app for visualizing personalized Spotify data. ",
       technologies: ["HTML", "CSS", "React", "JS", "Next"],
       links: ["visit", " home"],
       id: 1,
@@ -34,14 +33,14 @@ const DesignTab = () => {
     {
       image: "https://cdn.apkmonk.com/images/com.guru.cocktails.png",
       title: "Cocktail recipe app",
-      summary:
-        "Find a cocktail you like, and the recipe to make it.",
+      summary: "Find a cocktail you like, and the recipe to make it.",
       technologies: ["CSS", "React", "Jest"],
       links: ["visit", " home"],
       id: 1,
     },
     {
-      image: "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
+      image:
+        "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
       title: "Fitness Tracker",
       summary: "Set your goal. Receive a routine. Follow the plan.",
       technologies: ["React", "AWS", "Firebase"],
@@ -49,7 +48,8 @@ const DesignTab = () => {
       id: 2,
     },
     {
-      image: "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
+      image:
+        "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
       title: "Anywhere Radio",
       summary: "Listen to any radio station, any time, any place.",
       technologies: ["SCSS", "NextJS", "Postman", "Express"],
@@ -87,6 +87,14 @@ const DesignTab = () => {
             <div className="projects-individual-actions-div">
               <GitHubIcon />
               <OpenInNewIcon />
+              {/* <div>
+                <GitHubIcon />
+                <h6 className="projects-individual-actions-text">GitHub</h6>
+              </div>
+              <div>
+                <OpenInNewIcon />
+                <h6 className="projects-individual-actions-text">Visit Site</h6>
+              </div> */}
             </div>
           </div>
         </div>

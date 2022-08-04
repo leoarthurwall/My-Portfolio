@@ -110,7 +110,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content:  space-evenly;
+    justify-content:  space-between;
 
 
     border-radius: 10px;
@@ -127,7 +127,7 @@
 .projects-individual-container:hover .projects-individual-image-overlay  {
     opacity: 1;
     display: flex;
-    justify-content:  space-evenly;
+    justify-content:  space-between;
     align-items: center;
     flex-direction: column;
 
@@ -147,7 +147,7 @@
 .projects-individual-summary-body {
     font-family: $font-family;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .projects-individual-tech-div {
@@ -167,12 +167,12 @@
 
     font-family: $font-family;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .projects-individual-actions-div {
     width: 40%;
     height: 10%;
-    padding: 5%;
+    padding: 6%;
     border-top: 1px solid #546A93; 
     display: flex;
     justify-content: space-evenly;
@@ -189,6 +189,9 @@
     display: none;
 }
 
-
+.projects-individual-actions-text {
+   font-weight: 300; 
+   font-size: 0.5rem;
+}
 
 
