@@ -1,5 +1,5 @@
-import Tab from "./Tab";
 import './Projects.scss'
+import DesignTab from "./ProjectMap";
 
 function ProjectsSection () {
     return (
@@ -7,8 +7,8 @@ function ProjectsSection () {
             <div className="projects-section-header">
                 <h1 className="projects-header-wording">Projects<em>.</em></h1>
             </div>
-            <div className="projects-section-main"> 
-                <Tab /> 
+            <div className="projects-section-main">
+                <DesignTab /> 
             </div>
         </div>
     );
