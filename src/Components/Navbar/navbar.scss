@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     position:sticky;
-    font-size: 1.5rem ;
+    font-size: 1.4rem ;
     
     color: $heading-text-colors;
     font-family: 'schoolbell';   
@@ -31,7 +31,7 @@
 
     &:hover {
         color:white;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -50,6 +50,7 @@ ul {
         padding: 0%;
 
         a {
+            font-size: 0.75rem;
             text-decoration: none;
             text-transform: uppercase;
             color: $the-dot-docoration-color;
