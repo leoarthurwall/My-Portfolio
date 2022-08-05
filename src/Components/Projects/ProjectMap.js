@@ -62,11 +62,13 @@ const DesignTab = () => {
     <div className="projects-individual-design">
       {design.map((designProject) => (
         <div className="projects-individual-container" key={designProject.id}>
-          <img
-            className="projects-individual-image-body"
-            src={designProject.image}
-            alt={designProject.title}
-          ></img>
+          <div className="projects-individual-image-div">
+            <img
+              className="projects-individual-image-body"
+              src={designProject.image}
+              alt={designProject.title}
+            ></img>
+          </div>
           <div className="projects-individual-image-overlay">
             <h3 className="projects-individual-header-body">
               {designProject.title}

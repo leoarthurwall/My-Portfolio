@@ -55,13 +55,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;     
+    flex-wrap: wrap;   
+      
 }
 .projects-individual-container{
     width: 25vw;
     height: 30vh;
     position: relative;
     margin: 1.5% 2.7%; 
+
 }
 
 .projects-individual-header-body {
@@ -73,11 +75,19 @@
     border-bottom: 1px solid $heading-text-colors; 
 }
 
+.projects-individual-image-div {
+    height:100%;
+    width: 100%;
+    border-radius: 10px;  
+}
+
 .projects-individual-image-body {
     height:100%;
     width: 100%;
     object-fit:cover;
     border-radius: 10px;  
+    opacity: 1;
+
    
 }
 .projects-individual-image-overlay {
