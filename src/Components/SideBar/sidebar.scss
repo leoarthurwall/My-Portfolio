@@ -21,6 +21,12 @@
             color: $the-dot-docoration-color;
             margin-bottom: 1rem;
             align-items: left;
+            transition: ease-out 0.4s;
+
+            &:hover{
+                color: $heading-text-colors;
+                cursor: pointer;
+            }
 
         }
     }
