@@ -91,15 +91,6 @@ const DesignTab = () => {
               <div className="projects-individual-actions-icon">
                 <OpenInNewIcon />
               </div>
-
-              {/* <div>
-                <GitHubIcon />
-                <h6 className="projects-individual-actions-text">GitHub</h6>
-              </div>
-              <div>
-                <OpenInNewIcon />
-                <h6 className="projects-individual-actions-text">Visit Site</h6>
-              </div> */}
             </div>
           </div>
         </div>
