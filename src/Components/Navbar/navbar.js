@@ -57,7 +57,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li>
+            <li className="resume-button">
               <LinkButton hrefProp={`/resume.pdf`} bodyProp={"CV"} />
             </li>
           </ul>
