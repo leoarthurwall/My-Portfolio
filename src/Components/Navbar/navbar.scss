@@ -13,14 +13,13 @@
     align-items: center;
     z-index: 1;
     justify-content: space-between;
+    padding: 0 1%;
 }
 .navlogo{
     width: 7%;
     text-align: center;
-    position: sticky;
     display: flex;
     justify-content: center;
-    position:sticky;
     font-size: 1.4rem ;
     
     color: $heading-text-colors;
@@ -68,8 +67,24 @@ ul {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
     .resume-button {
       display: none;
     }
   }
+
+  @media (max-width: 1024px){
+    .navlogo{
+        margin-left: 5%;
+        &:hover {
+            font-size: 1.4rem ;
+            color: $heading-text-colors;
+        }
+    }
+    
+  }
+  @media  (min-width:480px){
+    .intro-container{
+        padding:0 5%;
+    }
+}
