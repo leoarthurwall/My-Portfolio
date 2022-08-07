@@ -4,20 +4,22 @@
 
 .contact-container{
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 100vw;
+    height: auto;
 }
 
 .contact-header {
     width: 100vw;
     height: 10vh;
+    max-width: 1400px;
 
     display: flex;
     align-items: center;
     text-align: left;
-    margin-left: 7vw;   
     margin-top: 15vh; 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 
@@ -26,8 +28,11 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    max-width: 1400px;
+
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -36,7 +41,7 @@
     font-family: $font-family;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 44px;
 
     color: $heading-text-colors;
@@ -45,7 +50,7 @@
     font-family: $font-family;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 44px;
 
     color: $the-dot-docoration-color;
@@ -71,7 +76,7 @@
     font-family: $font-family;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $secondary-font-color;
     margin-left: 15vw;
     margin-right: 15vw;
@@ -81,8 +86,33 @@
     font-family: $font-family;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $heading-text-colors;
     
 }
 
+@media (max-width: 481px){
+    .contact-header {
+        justify-content: center;
+    }
+    .contact-header-wording {
+        font-size: 1rem;
+    }
+    .contact-header-wording em {
+        font-size: 1rem;
+    }
+    .contact-main-get-in-touch {
+        font-size: 2.5rem;
+        margin-bottom: 10%;
+    }
+    .contact-main-get-in-touch em {
+        font-size: 2.5rem;
+    }
+    .contact-main-summary {
+        font-size:0.8rem;
+        margin-bottom: 5%;
+    }
+    .contact-main-summary em {
+        font-size:0.8rem;
+    }
+}

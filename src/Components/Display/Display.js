@@ -9,19 +9,19 @@ const Display = () => {
   return (
     <>
       <Navbar />
-      <SideBar />
-      <section id="intro-section">
-        <Introduction />
-      </section>
-      <section id="about-section">
-        <About />
-      </section>
-      <section id="portfolio-section">
-        <ProjectsSection />
-      </section>
-      <section id="contact-section">
-        <Contact />
-      </section>
+        {/* <SideBar /> */}
+        <section id="intro-section">
+          <Introduction />
+        </section>
+        <section id="about-section">
+          <About />
+        </section>
+        <section id="portfolio-section">
+          <ProjectsSection />
+        </section>
+        <section id="contact-section">
+          <Contact />
+        </section>
     </>
   );
 };

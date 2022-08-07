@@ -6,18 +6,21 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;  
+    // margin:0 5%;
+  
     
 }
+.about-section-centraliser {
+    max-width: 1400px;
+}
 .about-section-header {
-    width: 100vw;
     height: 10vh;
-
     display: flex;
     align-items: center;
     text-align: left;
-    margin-left: 7vw;   
-    margin-top: 10vh; 
 
 }
 .about-section-main{
@@ -41,8 +44,7 @@
     text-align: left;
     flex-direction: column;
   
-    margin-left: 7vw;
-    margin-right: 7vw;
+   
 
     width: 50%;
     height: 100%;
@@ -109,7 +111,7 @@
 
 /*ABOUT SECTION P TAGS*/
  .about-section-summary-p {
-     margin-bottom: 1rem;
+     margin-bottom: 1.1rem;
      font-size: 0.9rem;
  }
 
@@ -117,4 +119,17 @@
 
  .about-section-profile-photo{
      width: 80%;
+ }
+
+ @media (max-width: 481px){
+    .about-section-header{
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .about-section-header-wording {
+        font-size: 1rem;
+    }
+    .about-section-header-wording em {
+        font-size: 1rem;
+    }
  }

@@ -11,7 +11,7 @@ function Contact() {
       </div>
       <div className="contact-main">
         <h1 className="contact-main-get-in-touch">
-          Get in Touch<em>!</em>
+          Let's connect<em>!</em>
         </h1>
         <h3 className="contact-main-summary">
           <em>Thank you</em> for viewing my portfolio. I hope you enjoyed your

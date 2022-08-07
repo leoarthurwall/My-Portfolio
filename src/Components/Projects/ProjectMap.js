@@ -88,16 +88,15 @@ const DesignTab = () => {
             </div>
             <div className="projects-individual-actions-div">
               <div className="projects-individual-actions-icon">
-                <GitHubIcon />
+                <GitHubIcon sx={{fontSize: "1.1rem" }}/>
               </div>
               <div className="projects-individual-actions-icon">
-                <OpenInNewIcon />
+                <OpenInNewIcon sx={{fontSize: "1.1rem" }}/>
               </div>
             </div>
           </div>
         </div>
       ))}
-      ;
     </div>
   );
 };
