@@ -27,7 +27,7 @@ function Contact() {
         </h3>
         <LinkButton hrefProp={`mailto:leowall93@gmail.com`} bodyProp={"Contact"}/>
         <div className="contact-footer">
-          <h5 className="contact-footer-made-by">Designed & Built by Leo Wall</h5>
+          <h5 className="contact-footer-made-by">© 2022. Designed & Built by Leo Wall.</h5>
           <div className="contact-footer-icon-container">
             <a className="contact-footer-icon-individual" href={"https://github.com/leoarthurwall"} target="_blank" rel="noopener noreferrer">
               <GitHubIcon sx={{fontSize: "1.2rem" }}/>  

@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
+    padding:0 5%;
 }
 
 .contact-header {
@@ -22,7 +23,6 @@
     margin-bottom: 5%;
 }
 
-
 .contact-main{
     display: flex;
     align-items: center;
@@ -33,7 +33,6 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-
 }
 
 /* CONTACT HEADER WORDING*/
@@ -65,6 +64,7 @@
     font-size: 5rem;
     color: $the-dot-docoration-color;
 }
+
 .contact-main-get-in-touch em{
     font-family: $font-family;
     font-style: normal;
@@ -72,14 +72,15 @@
     font-size: 5rem;
     color: $heading-text-colors;
 }
+
 .contact-main-summary{
     font-family: $font-family;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     color: $secondary-font-color;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .contact-main-summary em{
@@ -88,8 +89,8 @@
     font-weight: 600;
     font-size: 1rem;
     color: $heading-text-colors;
- 
 }
+
 .contact-footer {
     width: 90vw;
     display: flex;
@@ -100,8 +101,8 @@
     border-top: 1px solid #546A93;
     padding: 3%;
     margin-top: 5%;
-
 }
+
 .contact-footer-made-by {
     font-family: $font-family;
     font-weight: 200;
@@ -109,6 +110,7 @@
     font-style: italic;
     margin-bottom: 1%;
 }
+
 .contact-footer-icon-container {
     display: flex;
     align-items: center;
@@ -116,26 +118,30 @@
     gap: 0.6rem;
     cursor: pointer;
 }
+
 .contact-footer-icon-individual {
     text-decoration: none;
      color: inherit;
-
 }
 
 .contact-footer-resume-icon {
     width: 1.2rem;
     filter: brightness(0) invert(1);
 }
-//MOBILE & DESKTOP SIDE PADDING
-@media  (min-width:480px){
-    .contact-container{
-        padding:0 5%;
-    }
-}
+
+
+//MEDIA QUERIES
+
 //MOBILE
+
 @media (max-width: 481px){
+    .contact-container{
+        padding:0%;
+    }
     .contact-header {
         justify-content: center;
+        margin-bottom: 0px;
+        margin-top: 10vh; 
     }
     .contact-header-wording {
         font-size: 1rem;
@@ -157,9 +163,18 @@
     .contact-main-summary em {
         font-size:0.8rem;
     }
+    .contact-footer {
+        margin-top: 10vh;
+    }
 }
+
  //TABLET
+ 
  @media (max-width: 769px){
+    .contact-container {
+        justify-content: space-evenly;
+
+    }
     .contact-header-wording {
         font-size: 1.2rem;
     }

@@ -23,10 +23,10 @@ function Navbar() {
             <li>
               <Link
                 activeClass="active"
-                to="about-section"
+                to="about-section-header"
                 spy={true}
                 smooth={true}
-                offset={-110}
+                offset={-100}
                 duration={500}
               >
                 About
@@ -36,10 +36,10 @@ function Navbar() {
             <li>
               <Link
                 activeClass="active"
-                to="portfolio-section"
+                to="projects-section-header"
                 spy={true}
                 smooth={true}
-                offset={10}
+                offset={-100}
                 duration={500}
               >
                 Projects
@@ -48,10 +48,10 @@ function Navbar() {
             <li>
               <Link
                 activeClass="active"
-                to="contact-section"
+                to="contact-header"
                 spy={true}
                 smooth={true}
-                offset={20}
+                offset={-100}
                 duration={500}
               >
                 Contact
