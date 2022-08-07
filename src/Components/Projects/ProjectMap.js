@@ -68,6 +68,9 @@ const DesignTab = () => {
               src={designProject.image}
               alt={designProject.title}
             ></img>
+            <div className="projects-individual-image-title-div">
+              <div className="projects-individual-image-title-text">{designProject.title}</div>
+             </div>
           </div>
           <div className="projects-individual-image-overlay">
             <h3 className="projects-individual-header-body">
