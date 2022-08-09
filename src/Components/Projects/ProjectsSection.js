@@ -1,5 +1,5 @@
 import './Projects.scss'
-import DesignTab from "./ProjectMap";
+import DesignTab from "./ProjectIndividual";
 
 function ProjectsSection () {
     return (

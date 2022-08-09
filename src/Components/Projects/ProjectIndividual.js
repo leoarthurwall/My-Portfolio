@@ -1,13 +1,14 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
-const DesignTab = () => {
+const ProjectIndividual = () => {
   const design = [
     {
       image:
         "https://www.infobae.com/new-resizer/gvU1Me_FuUIB9sryOC9LlGtTHmc=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/5TD7NOGP5NECNAZ3L6CG7TPIK4.jpg",
       title: "The Spotify Project",
-      summary: "A web app for visualizing personalized Spotify data. ",
+      summary:
+        "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. ",
       technologies: ["HTML", "CSS", "React", "JS", "Next"],
       links: ["visit", " home"],
       id: 1,
@@ -59,23 +60,35 @@ const DesignTab = () => {
   ];
   console.log(design[0].technologies);
   return (
-    <div className="projects-individual-design">
+    <div className="projects-individual">
       {design.map((designProject) => (
         <div className="projects-individual-container" key={designProject.id}>
+        
           <div className="projects-individual-image-div">
             <img
               className="projects-individual-image-body"
               src={designProject.image}
               alt={designProject.title}
             ></img>
-            <div className="projects-individual-image-title-div">
-              <div className="projects-individual-image-title-text">{designProject.title}</div>
-             </div>
+              <div className="projects-individual-header-pre-click">
+                {designProject.title}
+              </div>
           </div>
+          
           <div className="projects-individual-image-overlay">
-            <h3 className="projects-individual-header-body">
-              {designProject.title}
-            </h3>
+            <div className="projects-individual-overlay-header-div">
+              <div className="projects-individual-overlay-header-text">
+                {designProject.title}
+              </div>
+              <div className="projects-individual-actions-div">
+                <div className="projects-individual-actions-icon">
+                  <GitHubIcon sx={{ fontSize: "1.1rem" }} />
+                </div>
+                <div className="projects-individual-actions-icon">
+                  <OpenInNewIcon sx={{ fontSize: "1.1rem" }} />
+                </div>
+              </div>
+            </div>
             <div className="projects-individual-summary-div">
               <p className="projects-individual-summary-body">
                 {designProject.summary}
@@ -89,18 +102,10 @@ const DesignTab = () => {
                 </>
               ))}
             </div>
-            <div className="projects-individual-actions-div">
-              <div className="projects-individual-actions-icon">
-                <GitHubIcon sx={{fontSize: "1.1rem" }}/>
-              </div>
-              <div className="projects-individual-actions-icon">
-                <OpenInNewIcon sx={{fontSize: "1.1rem" }}/>
-              </div>
-            </div>
           </div>
         </div>
       ))}
     </div>
   );
 };
-export default DesignTab;
+export default ProjectIndividual;
