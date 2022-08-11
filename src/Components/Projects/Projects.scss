@@ -80,8 +80,7 @@
 
 //IMAGE HEADER AND OVERLAY PRE HOVER
 
-
-.projects-individual-header-pre-click {
+.projects-individual-shade-pre-click {
     position: absolute;
     display: flex;
     top: 0;
@@ -92,9 +91,23 @@
     padding-top: 4%;
     padding-left: 1.28rem;
     width: 100%;
-    height: 40%;
+    height: 50%;
     border-radius: 10px;  
     background-image: linear-gradient( rgb(8, 8, 8, 1), rgba(255, 255, 255, 0));
+}
+.projects-individual-header-pre-click {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+
+    color: white;
+    font-family: $font-family;
+    font-size: 1rem;
+    padding: 2%;
+    padding: 3% 6%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 100%;
 }
 
 //OVERLAY
@@ -114,8 +127,8 @@
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    padding: 2%;
-    padding-top: 3%;
+    padding: 3% 6%;
+    padding-bottom: 1%;
 }
 .projects-individual-container:hover .projects-individual-image-overlay  {
     opacity: 1;
@@ -132,8 +145,7 @@
 //OVERLAY HEADER
 .projects-individual-overlay-header-div {
     display: flex;
-    width: 90%;
-    padding-top: 2%;
+    width: 100%;
     height: 15%;
     align-items: center;
     flex-direction: row;
@@ -145,13 +157,12 @@
     font-family: $font-family;
     font-size: 1rem;
     font-weight: 400;
-    padding-top: 0.1rem;
     cursor: pointer;
 }
 
 //OVERLAY SUMMARY
 .projects-individual-summary-div {
-    width: 90%;
+    width: 100%;
     height: 70%;
     display: flex;
     justify-content: center;
@@ -167,7 +178,7 @@
 
 //OVERLAY TECHNOLOGIES
 .projects-individual-tech-div {
-    width: 90%;
+    width: 100%;
     height: 20%;  
     display: flex;
     align-items: center;
