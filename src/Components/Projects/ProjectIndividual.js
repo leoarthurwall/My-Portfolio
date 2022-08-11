@@ -71,7 +71,6 @@ const ProjectIndividual = () => {
               alt={designProject.title}
             ></img>
             <div className="projects-individual-shade-pre-click">
-                {/* {designProject.title} */}
               </div>
               <div className="projects-individual-header-pre-click">
                 {designProject.title}
