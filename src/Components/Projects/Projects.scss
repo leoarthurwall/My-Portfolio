@@ -37,13 +37,11 @@
     line-height: 44px;
     color:$heading-text-colors;
 }
-.projects-header-wording em{
-    font-family: $font-family;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 44px;
-    color: #ffffff;
+.projects-header-wording-line{
+    border-top: 1px solid #546A93;
+    opacity: 0.3;
+    margin-left: 2%;
+    width: 80%;
 }
 
 /*PROJECTS INDIVIDUAL CODE*/
@@ -214,10 +212,11 @@
     transition: ease-out 0.4s;
     font-size: medium;
     color: #ffffff;
+    cursor: pointer;
+
 
     &:hover{
         color: $heading-text-colors;
-        cursor: pointer;
     }
 }
 

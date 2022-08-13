@@ -9,8 +9,9 @@ function About() {
       <div className="about-section-centraliser">
         <div className="about-section-header">
           <h1 className="about-section-header-wording">
-            About me<em>.</em>
+            About me
           </h1>
+          <hr className="about-section-header-wording-line"></hr>
         </div>
         <div className="about-section-main">
           <div className="about-section-left">
@@ -47,11 +48,14 @@ function About() {
                 sailing, surfing, calisthenics, travelling, playing the piano,
                 or having a tinker in the garage.{" "}
               </p>
-              
             </text>
           </div>
           <div className="about-section-right">
-            <img className="about-section-profile-photo" src={LeoWallProfile} alt="" />
+            <img
+              className="about-section-profile-photo"
+              src={LeoWallProfile}
+              alt=""
+            />
             <AboutTechs />
           </div>
         </div>

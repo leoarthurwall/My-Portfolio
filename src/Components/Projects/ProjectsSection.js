@@ -5,7 +5,8 @@ function ProjectsSection () {
     return (
         <div className="projects-section-container">
             <div className="projects-section-header">
-                <h1 className="projects-header-wording">Projects<em>.</em></h1>
+                <h1 className="projects-header-wording">Projects</h1>
+                <hr className='projects-header-wording-line'></hr>
             </div>
             <div className="projects-section-main">
                 <DesignTab /> 

@@ -12,8 +12,9 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-header">
         <h2 className="contact-header-wording">
-          Contact<em>.</em>
+          Contact
         </h2>
+        <hr className="contact-header-wording-line"></hr>
       </div>
       <div className="contact-main">
         <h1 className="contact-main-get-in-touch">
