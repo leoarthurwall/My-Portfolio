@@ -97,13 +97,48 @@
  .about-section-summary-p {
      margin-bottom: 1.1rem;
      font-size: 0.9rem;
- }
+
+    }
+ .about-section-summary-h4 {
+    margin-bottom: 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
 
  /*ABOUT SECTION PROFILE IMAGE*/
 
  .about-section-profile-photo{
      width: 80%;
  }
+
+
+//TECHNOLOGIES
+.about-section-tech-container{
+    display: flex;
+    width:100%;
+    justify-content: left;
+    
+}
+.about-section-tech-body {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.about-section-tech-list {
+    margin: 0%;
+    text-align: left;
+}
+.about-section-tech-arrow-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 //MEDIA QUERIES
 

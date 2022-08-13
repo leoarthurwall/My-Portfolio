@@ -20,12 +20,9 @@ function Contact() {
           Let's connect<em>!</em>
         </h1>
         <h3 className="contact-main-summary">
-          <em>Thank you</em> for viewing my portfolio. I hope you enjoyed your
-          time here. If you feel I could be a great fit within your team, or
-          you'd simply like to have a chat, please{" "}
-          <em>feel free to reach out</em>.{" "}
+          Thank you for checking out my portfolio. I’m <em>currently open to new opportunities</em>. If you feel I could make a great addition to your team or project, I’d love to connect and discuss the opportunity further with you. 
         </h3>
-        <LinkButton hrefProp={`mailto:leowall93@gmail.com`} bodyProp={"Contact"}/>
+        <LinkButton hrefProp={`mailto:leowall93@gmail.com`} bodyProp={"Connect"}/>
         <div className="contact-footer">
           <h5 className="contact-footer-made-by">© 2022. Designed & Built by Leo Wall.</h5>
           <div className="contact-footer-icon-container">

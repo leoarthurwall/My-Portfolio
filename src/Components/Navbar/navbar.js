@@ -19,8 +19,8 @@ function Navbar() {
       </div>
       <div className="nav-right">
         <nav>
-          <ul>
-            <li>
+          <ul className="nav-list-container" >
+            <li className="nav-list-item">
               <Link
                 activeClass="active"
                 to="about-section-header"
@@ -33,7 +33,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
+            <li className="nav-list-item">
               <Link
                 activeClass="active"
                 to="projects-section-header"
@@ -45,7 +45,7 @@ function Navbar() {
                 Projects
               </Link>
             </li>
-            <li>
+            <li className="nav-list-item">
               <Link
                 activeClass="active"
                 to="contact-header"
@@ -58,7 +58,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="resume-button">
-              <LinkButton hrefProp={`/resume.pdf`} bodyProp={"CV"} />
+              <LinkButton className="resume-button-nav" hrefProp={`/resume.pdf`} bodyProp={"CV"} />
             </li>
           </ul>
         </nav>

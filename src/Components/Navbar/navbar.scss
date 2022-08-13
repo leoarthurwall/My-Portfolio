@@ -58,7 +58,6 @@ ul {
             cursor: pointer;
             transition: ease-out 0.1s;
             border-bottom: 3px solid none;
-            border-bottom: 0 solid $heading-text-colors;
 
             &:hover {
                 border-bottom: 3px solid $heading-text-colors;
