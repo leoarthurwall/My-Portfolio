@@ -1,6 +1,7 @@
 import "../About/about.scss";
-import pngegg from "../../Images/pngegg.png";
+// import pngegg from "../../Images/pngegg.png";
 import AboutTechs from "./techs";
+import LeoWallProfile from "../../Images/LeoWallProfile.jpeg";
 
 function About() {
   return (
@@ -50,7 +51,7 @@ function About() {
             </text>
           </div>
           <div className="about-section-right">
-            <img className="about-section-profile-photo" src={pngegg} alt="" />
+            <img className="about-section-profile-photo" src={LeoWallProfile} alt="" />
             <AboutTechs />
           </div>
         </div>
