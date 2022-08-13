@@ -12,44 +12,44 @@ function AboutTechs(){
               <div className="about-section-tech-container">
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">HTML</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">CSS</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Javascript</li>
                   </div>
                 </div>
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">React js</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Next js</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
-                    <li className="about-section-tech-list">Node</li>
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Node js</li>
                   </div>
                 </div>
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">SQL</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
-                    <li className="about-section-tech-list">Typescipt</li>
+                    <ArrowRightIcon  sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Figma</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
-                    <ArrowRightIcon />
-                    <li className="about-section-tech-list">Firebase</li>
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Miro</li>
                   </div>
                 </div>
               </div>

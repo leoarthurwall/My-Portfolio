@@ -96,12 +96,12 @@
 /*ABOUT SECTION P TAGS*/
  .about-section-summary-p {
      margin-bottom: 1.1rem;
-     font-size: 0.9rem;
+     font-size: 0.8rem;
 
     }
  .about-section-summary-h4 {
     margin-bottom: 1.1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
 
@@ -132,12 +132,14 @@
 .about-section-tech-list {
     margin: 0%;
     text-align: left;
+    font-size: 0.7rem;
 }
 .about-section-tech-arrow-list-container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 
 
 //MEDIA QUERIES

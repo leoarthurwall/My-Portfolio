@@ -16,26 +16,28 @@ function About() {
             <text className="about-section-summary">
               <p className="about-section-summary-p">
                 My journey into the world of tech began at the start of 2022.
-                Prior to this, I was Playing national level rugby across Spain.
-                Breaking my leg last year during a rugby match gave me valuable
-                perspective on how I want my future to look.{" "}
+                Prior to this, I was Playing national level rugby across Spain
+                for FC Barcelona Rugby club. It was breaking my leg during a
+                rugby match last year that enabled me to get perspective on how
+                I wanted my future look.{" "}
               </p>
               <p className="about-section-summary-p">
-                This led me to discover and enrol on a 12-week creative
-                computing bootcamp at Bath Spa University where I developed
-                skills and experience with all things UX/UI.{" "}
+                With my heart set on building a career in tech, I moved back to England
+                to enrol on a 12-week creative computing bootcamp at Bath Spa
+                University where I developed the skills and experience with all
+                things UX/UI.{" "}
               </p>
               <p className="about-section-summary-p">
-                With a hunger to experience software development aswell, I
-                enrolled on the School Of Code 16-week full-stack development
-                course. I had the privilidge of collaborating with many amazing
-                people, learning many new technologies and build full-stack
-                applications.{" "}
+                With a hunger and curiosity to experience software development
+                too, I then enrolled on the School Of Code 16-week full-stack
+                development bootcamp. I had the privilege of collaborating with
+                amazing people, learning many new technologies and building
+                full-stack applications.{" "}
               </p>
               <p className="about-section-summary-p">
                 If I’m not designing and developing applications, you’ll likely
-                find me doing what else I love: road cycling,
-                playing rugby, sailing, surfing, calisthenics, travelling, playing the piano,
+                find me doing what else I love: road cycling, playing rugby,
+                sailing, surfing, calisthenics, travelling, playing the piano,
                 or having a tinker in the garage.{" "}
               </p>
               <AboutTechs />
