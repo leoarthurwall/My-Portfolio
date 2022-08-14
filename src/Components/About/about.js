@@ -24,10 +24,9 @@ function About() {
                 take action on how I wanted my future to look.{" "}
               </p>
               <p className="about-section-summary-p">
-                Having lived in Barcelona for 6 years, I was already under the
-                influence of its booming tech industry, and eager for a way in.
-                So, I decided it was a good time to move back to England and
-                develop the skills and experience for a career in tech.{" "}
+                Having lived in Barcelona for 6 years, I had become very aware of its booming tech industry, and eager for a way in.
+                So, I decided it was the right time to move back to England and
+                develop the skills and experience for a successful career in tech.{" "}
               </p>{" "}
               <p className="about-section-summary-p">
                 January this year, I enrolled on a 12-week creative computing
@@ -43,7 +42,7 @@ function About() {
                 applications.{" "}
               </p>
               <p className="about-section-summary-p">
-                If I’m not designing and developing applications, you’ll likely
+                I throughly enjoy designing and developing applications in my free time. When i'm not, you’ll likely
                 find me doing what I also love: road cycling, playing rugby,
                 sailing, surfing, calisthenics, travelling, playing the piano,
                 or having a tinker in the garage.{" "}
