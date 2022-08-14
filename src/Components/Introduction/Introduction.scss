@@ -69,6 +69,28 @@
 
 //MEDIA QUERIES
 
+  //TABLET
+  @media (max-width: 769px){
+    .intro-main-text-hi {
+        margin-top: 10%;
+        font-size: 1.4rem;
+    }
+    .intro-main-text-hi em{
+        font-size: 1.4rem;
+    }
+    .intro-main-text-name {
+        font-size: 3.5rem;
+    }
+    .intro-main-text-role {
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+    }
+    .intro-main-text-summary {
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+    }
+}
+
 //MOBILE
  @media (max-width: 481px){
     .intro-container{
@@ -105,24 +127,4 @@
 
 
 
-  //TABLET
-@media (max-width: 769px){
-    .intro-main-text-hi {
-        margin-top: 10%;
-        font-size: 1.4rem;
-    }
-    .intro-main-text-hi em{
-        font-size: 1.4rem;
-    }
-    .intro-main-text-name {
-        font-size: 3.5rem;
-    }
-    .intro-main-text-role {
-        font-size: 2.5rem;
-        margin-bottom: 5%;
-    }
-    .intro-main-text-summary {
-        font-size: 1.2rem;
-        margin-bottom: 5%;
-    }
-}
+

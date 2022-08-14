@@ -9,7 +9,7 @@ function About() {
       <div className="about-section-centraliser">
         <div className="about-section-header">
           <h1 className="about-section-header-wording">
-            About me
+            About
           </h1>
           <hr className="about-section-header-wording-line"></hr>
         </div>

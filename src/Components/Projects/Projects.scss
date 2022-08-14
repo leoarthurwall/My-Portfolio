@@ -229,6 +229,20 @@
         min-width: 300px;
     }
 }
+ //TABLET
+
+ @media (max-width: 769px){
+    .projects-header-wording {
+        font-size: 1.2rem;
+    }
+    .projects-header-wording em {
+        font-size: 1.2rem;
+    }
+    .projects-section-container {
+        margin-top: 0;
+    }
+}
+
  //PHONE
 
 @media (max-width: 481px){
@@ -237,9 +251,10 @@
     }
     .projects-section-header {
         justify-content: center;
+        flex-direction: column;
     }
-    .projects-header-wording {
-        font-size: 1rem;
+    .projects-header-wording-line{
+        margin-left: 0;
     }
     .projects-header-wording em {
         font-size: 1rem;
@@ -254,16 +269,7 @@
     }
  }
 
- //TABLET
 
- @media (max-width: 769px){
-    .projects-header-wording {
-        font-size: 1.2rem;
-    }
-    .projects-header-wording em {
-        font-size: 1.2rem;
-    }
-}
 
 
 
