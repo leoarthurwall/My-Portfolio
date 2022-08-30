@@ -58,7 +58,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="resume-button">
-              <LinkButton className="resume-button-nav" hrefProp={`/resume.pdf`} bodyProp={"CV"} />
+              <LinkButton className="resume-button-nav" hrefProp={`Resume/ResumeLeoWall.pdf`} bodyProp={"CV"} />
             </li>
           </ul>
         </nav>

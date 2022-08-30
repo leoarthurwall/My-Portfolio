@@ -4,6 +4,7 @@ import Introduction from "../Introduction/Introduction";
 import Navbar from "../Navbar/navbar";
 import ProjectsSection from "../Projects/ProjectsSection";
 
+
 const Display = () => {
   return (
     <>

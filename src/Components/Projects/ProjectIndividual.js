@@ -24,12 +24,12 @@ const ProjectIndividual = () => {
       id: 2,
     },
     {
-      image:
-        "https://d540vms5r2s2d.cloudfront.net/mad/uploads/Facebook_Relaunches_Events.jpg",
-      title: "The Event Finder",
-      summary: "Never miss out on an event near you again...",
-      technologies: ["HTML", "CSS", "React", "JS"],
-      links: ["visit ", "home"],
+      image: "Images/HappyCamperProjectImage.png",
+      title: "Happy Camper",
+      summary: "A course learning Tracker for School of Code Students. This was the mid-course, week-long production. My area focused on the design & build of the frontend.",
+      technologies: ["HTML", "CSS", "React", "Figma"],
+      github: "https://github.com/SchoolOfCode/w9_frontend-project-bc12room27",
+      website: "https://happycamper.netlify.app/",
       id: 3,
     },
     {

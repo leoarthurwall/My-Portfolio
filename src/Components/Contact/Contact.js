@@ -36,7 +36,7 @@ function Contact() {
             <a className="contact-footer-icon-individual" href={`mailto:leowall93@gmail.com`} target="_blank" rel="noopener noreferrer">
               <EmailIcon sx={{fontSize: "1.2rem" }}/>
             </a>
-            <a className="contact-footer-icon-individual" href={`/resume.pdf`} target="_blank" rel="noopener noreferrer">
+            <a className="contact-footer-icon-individual" href={`Resume/ResumeLeoWall.pdf`} target="_blank" rel="noopener noreferrer">
               <img className="contact-footer-resume-icon" src="Images/Resume.png" alt= "view resume" />
             </a>
           </div>
