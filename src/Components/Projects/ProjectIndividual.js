@@ -5,22 +5,22 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 const ProjectIndividual = () => {
   const design = [
     {
-      image:
-      "Images/OneSourceImage.jpg",
-      title: "The Spotify Project",
+      image:"Images/OneSourceImage.jpg",
+      title: "1Source",
       summary:
-        "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. ",
-      technologies: ["HTML", "CSS", "React", "JS", "Next"],
-      links: ["visit", " home"],
+        "A multimedia discovery app, where you can dicover new media all in one place. This is our final 4-week project. My focus was on UX/UI Design, frontend development & Authentication",
+      technologies: ["Next.js", "Styled Components", "Figma", "Firebase"],
+      github: "https://github.com/SchoolOfCode/final-project_front-end-odd-socs",
+      website: "https://1source.netlify.app/",
       id: 1,
     },
     {
-      image:
-        "https://www.zdnet.com/a/img/resize/e8a95cd8020056db5fe052fac1d39ed6f2d4324f/2022/05/18/830e6364-cc17-4e4b-ba22-db7866c57dec/carrot-weather-best-weather-app.jpg?width=1200&fit=bounds&auto=webp",
-      title: "The Weather App",
-      summary: "A weather app to get the forcast right, wherever you are.",
-      technologies: ["HTML", "CSS", "React"],
-      links: ["visit ", "home"],
+      image:"Images/PortfolioProjectImage.png",
+      title: "My portfolio Site",
+      summary: "My Portfolio Wep Page! See the journey from design right through to build. Making the site responsive to mobile and tablet was one of the big. learning milestones of this project",
+      technologies: ["React JS", "SCSS", "Figma", "MUI Icons"],
+      github: "https://github.com/leoarthurwall/My-Portfolio",
+      website: "https://leowall.netlify.app/",
       id: 2,
     },
     {
@@ -84,12 +84,12 @@ const ProjectIndividual = () => {
                 {designProject.title}
               </div>
               <div className="projects-individual-actions-div">
-                <div className="projects-individual-actions-icon">
+                <a className="projects-individual-actions-icon" href={designProject.github} target="_blank" rel="noopener noreferrer">
                   <GitHubIcon sx={{ fontSize: "1.1rem" }} />
-                </div>
-                <div className="projects-individual-actions-icon">
+                </a>
+                <a className="projects-individual-actions-icon" href={designProject.website} target="_blank" rel="noopener noreferrer">
                   <OpenInNewIcon sx={{ fontSize: "1.1rem" }} />
-                </div>
+                </a>
               </div>
             </div>
             <div className="projects-individual-summary-div">
