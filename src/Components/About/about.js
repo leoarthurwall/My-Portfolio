@@ -1,7 +1,5 @@
 import "../About/about.scss";
-// import pngegg from "../../Images/pngegg.png";
 import AboutTechs from "./techs";
-import LeoWallProfile from "../../Images/LeoWallProfile.jpeg";
 
 function About() {
   return (
@@ -52,8 +50,8 @@ function About() {
           <div className="about-section-right">
             <img
               className="about-section-profile-photo"
-              src={LeoWallProfile}
-              alt=""
+              src="Images/LeoWallProfile.jpeg"
+              alt="ProfilePhoto"
             />
             <AboutTechs />
           </div>

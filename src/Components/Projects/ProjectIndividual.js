@@ -1,11 +1,12 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
+
 const ProjectIndividual = () => {
   const design = [
     {
       image:
-        "https://www.infobae.com/new-resizer/gvU1Me_FuUIB9sryOC9LlGtTHmc=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/5TD7NOGP5NECNAZ3L6CG7TPIK4.jpg",
+      "Images/OneSourceImage.jpg",
       title: "The Spotify Project",
       summary:
         "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. ",
