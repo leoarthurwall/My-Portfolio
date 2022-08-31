@@ -23,6 +23,10 @@ function AboutTechs(){
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Javascript</li>
                   </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Jest</li>
+                  </div>
                 </div>
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
@@ -37,6 +41,10 @@ function AboutTechs(){
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Node js</li>
                   </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Cypress</li>
+                  </div>
                 </div>
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
@@ -50,6 +58,10 @@ function AboutTechs(){
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Miro</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Firebase</li>
                   </div>
                 </div>
               </div>
