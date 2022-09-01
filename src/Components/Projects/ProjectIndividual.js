@@ -33,11 +33,12 @@ const ProjectIndividual = () => {
       id: 3,
     },
     {
-      image: "https://cdn.apkmonk.com/images/com.guru.cocktails.png",
-      title: "Cocktail recipe app",
-      summary: "Find a cocktail you like, and the recipe to make it.",
-      technologies: ["CSS", "React", "Jest"],
-      links: ["visit", " home"],
+      image: "Images/CoverImage.png",
+      title: "Click 'n' Brick",
+      summary: "UX/UI design project - The Click’n’Brick Property Marketplace App is a platform designed to make buying property online the go-to choice for any and all prospective buyers within the UK.",
+      technologies: ["Miro", "figma", "Pen & Paper"],
+      github: "https://github.com/leoarthurwall/Click-n-Brick",
+      website: "https://www.figma.com/proto/ngjI1rbryGHOL90MvymDnW/Untitled?node-id=1%3A1799&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3035",
       id: 1,
     },
     {
