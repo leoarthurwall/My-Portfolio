@@ -5,7 +5,7 @@ function AboutTechs(){
     return(
         <div className="about-section-tech-section">
                 <h4 className="about-section-summary-h4">
-                  Here are some of the technologies I work with:
+                  Here are some of the technologies I've worked with:
                 </h4>
               
 
@@ -13,19 +13,31 @@ function AboutTechs(){
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
-                    <li className="about-section-tech-list">HTML</li>
+                    <li className="about-section-tech-list">HTML 5</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
-                    <li className="about-section-tech-list">CSS</li>
+                    <li className="about-section-tech-list">CSS 3</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
-                    <li className="about-section-tech-list">Javascript</li>
+                    <li className="about-section-tech-list">Javascript (ES6)</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Jest</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Git/GitHub</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Netlify</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">SCSS</li>
                   </div>
                 </div>
                 <div className="about-section-tech-body">
@@ -45,11 +57,23 @@ function AboutTechs(){
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Cypress</li>
                   </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Heroku</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">PostgresSQL</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Styled Components</li>
+                  </div>
                 </div>
                 <div className="about-section-tech-body">
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
-                    <li className="about-section-tech-list">SQL</li>
+                    <li className="about-section-tech-list">AWS</li>
                   </div>
                   <div className="about-section-tech-arrow-list-container">
                     <ArrowRightIcon  sx={{color: "#DD6031" }} fontSize="small"/>
@@ -63,6 +87,15 @@ function AboutTechs(){
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Firebase</li>
                   </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Trello</li>
+                  </div>
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Auth0</li>
+                  </div>
+                
                 </div>
               </div>
               </div>
