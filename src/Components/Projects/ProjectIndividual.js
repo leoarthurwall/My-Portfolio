@@ -41,24 +41,24 @@ const ProjectIndividual = () => {
       website: "https://www.figma.com/proto/ngjI1rbryGHOL90MvymDnW/Untitled?node-id=1%3A1799&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3035",
       id: 1,
     },
-    {
-      image:
-        "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
-      title: "Fitness Tracker",
-      summary: "Set your goal. Receive a routine. Follow the plan.",
-      technologies: ["React", "AWS", "Firebase"],
-      links: ["visit ", "home"],
-      id: 2,
-    },
-    {
-      image:
-        "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
-      title: "Anywhere Radio",
-      summary: "Listen to any radio station, any time, any place.",
-      technologies: ["SCSS", "NextJS", "Postman", "Express"],
-      links: ["visit ", "home"],
-      id: 3,
-    },
+    // {
+    //   image:
+    //     "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
+    //   title: "Fitness Tracker",
+    //   summary: "Set your goal. Receive a routine. Follow the plan.",
+    //   technologies: ["React", "AWS", "Firebase"],
+    //   links: ["visit ", "home"],
+    //   id: 2,
+    // },
+    // {
+    //   image:
+    //     "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
+    //   title: "Anywhere Radio",
+    //   summary: "Listen to any radio station, any time, any place.",
+    //   technologies: ["SCSS", "NextJS", "Postman", "Express"],
+    //   links: ["visit ", "home"],
+    //   id: 3,
+    // },
   ];
   console.log(design[0].technologies);
   return (

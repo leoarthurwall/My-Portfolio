@@ -60,19 +60,20 @@
     height: 30vh;
     position: relative;
     margin: 1.6rem 0; 
-    min-height: 200px;
+    min-height: 250px;
+    min-width: 350px;
 }
 //IMAGE SECTION
 .projects-individual-image-div {
     height:100%;
     width: 100%;
-    border-radius: 10px;  
+    border-radius: 15px;  
 }
 .projects-individual-image-body {
     height:100%;
     width: 100%;
     object-fit:cover;
-    border-radius: 10px;  
+    border-radius: 15px;  
     opacity: 1; 
 }
 
@@ -82,35 +83,29 @@
     position: absolute;
     display: flex;
     top: 0;
-
     color: white;
     font-family: $font-family;
-    font-size: 1rem;
-    padding-top: 4%;
-    padding-left: 1.28rem;
     width: 100%;
     height: 60%;
-    border-radius: 10px;  
+    border-radius: 14px;  
     background-image: linear-gradient( rgb(8, 8, 8, 1), rgba(255, 255, 255, 0));
 }
 .projects-individual-header-pre-click {
     position: absolute;
     display: flex;
-    bottom: 0;
+    top: 0;
 
     color: white;
     font-family: $font-family;
     font-size: 1rem;
-    padding: 2%;
     padding: 3% 6%;
-    padding-bottom: 1%;
     width: 100%;
     height: 100%;
 }
 
 //OVERLAY
 .projects-individual-image-overlay {
-    bottom: 0; 
+    top: 0; 
     position: absolute; 
     display: flex;
     justify-content:  space-between;
@@ -122,11 +117,10 @@
     opacity:0;
     color: white;
     
-    border-radius: 10px;
+    border-radius: 15px;
     height: 100%;
     width: 100%;
     padding: 3% 6%;
-    padding-bottom: 1%;
 }
 .projects-individual-container:hover .projects-individual-image-overlay  {
     opacity: 1;
@@ -135,7 +129,6 @@
     align-items: center;
     flex-direction: column;
 
-    border-radius: 10px;
     height: 100%;
     width: 100%;
 
@@ -145,7 +138,6 @@
     display: flex;
     width: 100%;
     height: 15%;
-    align-items: center;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -155,7 +147,6 @@
     font-family: $font-family;
     font-size: 1rem;
     font-weight: 400;
-    cursor: pointer;
 }
 
 //OVERLAY SUMMARY
@@ -204,9 +195,9 @@
     width: 20%;
     height: 20%;
     gap: 0.8rem;
+    padding-top:0.2rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 .projects-individual-actions-icon {
     transition: ease-out 0.4s;
@@ -226,7 +217,7 @@
 
 @media(max-width: 1023px){
     .projects-individual-container{
-        min-width: 300px;
+        min-width: 350px;
     }
 }
  //TABLET
@@ -265,7 +256,7 @@
     .projects-individual-container {
         width: 25%;
         height: 25vh;
-        min-width: 300px;
+        min-width: 80%;
     }
  }
 
