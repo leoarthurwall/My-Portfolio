@@ -16,13 +16,13 @@ function About() {
             <text className="about-section-summary">
               <p className="about-section-summary-p">
                 My journey into the world of tech began at the start of 2022.
-                Prior to this, I was Playing national level rugby across Spain
+                Prior to this, I was playing national level rugby across Spain
                 for FC Barcelona Rugby club. It was breaking my leg during a
                 rugby match last year that enabled me to get perspective and
                 take action on how I wanted my future to look.{" "}
               </p>
               <p className="about-section-summary-p">
-                Having lived in Barcelona for 6 years, I had become very aware of its booming tech industry, and eager for a way in.
+                Having lived in Barcelona for 6 years, I had become very aware of its booming tech industry, and was eager for a way in.
                 So, I decided it was the right time to move back to England and
                 develop the skills and experience for a successful career in tech.{" "}
               </p>{" "}
