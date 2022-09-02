@@ -36,10 +36,10 @@ const ProjectIndividual = () => {
       image: "Images/CoverImage.png",
       title: "Click 'n' Brick",
       summary: "UX/UI design project - The Click’n’Brick Property Marketplace App is a platform designed to make buying property online the go-to choice for any and all prospective buyers within the UK.",
-      technologies: ["Miro", "figma", "Pen & Paper"],
+      technologies: ["Miro", "Figma", "Pen & Paper"],
       github: "https://github.com/leoarthurwall/Click-n-Brick",
       website: "https://www.figma.com/proto/ngjI1rbryGHOL90MvymDnW/Untitled?node-id=1%3A1799&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3035",
-      id: 1,
+      id: 4,
     },
     // {
     //   image:
@@ -48,7 +48,7 @@ const ProjectIndividual = () => {
     //   summary: "Set your goal. Receive a routine. Follow the plan.",
     //   technologies: ["React", "AWS", "Firebase"],
     //   links: ["visit ", "home"],
-    //   id: 2,
+    //   id: 5,
     // },
     // {
     //   image:
@@ -57,7 +57,7 @@ const ProjectIndividual = () => {
     //   summary: "Listen to any radio station, any time, any place.",
     //   technologies: ["SCSS", "NextJS", "Postman", "Express"],
     //   links: ["visit ", "home"],
-    //   id: 3,
+    //   id: 6,
     // },
   ];
   console.log(design[0].technologies);
