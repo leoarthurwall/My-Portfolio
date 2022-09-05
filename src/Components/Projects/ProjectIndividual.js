@@ -50,24 +50,7 @@ const ProjectIndividual = () => {
       website: "https://leowall-weather.netlify.app/",
       id: 5,
     },
-    // {
-    //   image:
-    //     "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",
-    //   title: "Fitness Tracker",
-    //   summary: "Set your goal. Receive a routine. Follow the plan.",
-    //   technologies: ["React", "AWS", "Firebase"],
-    //   links: ["visit ", "home"],
-    //   id: 5,
-    // },
-    // {
-    //   image:
-    //     "http://motuga.azurewebsites.net/images/AppRadio/screenshots/screen1.png",
-    //   title: "Anywhere Radio",
-    //   summary: "Listen to any radio station, any time, any place.",
-    //   technologies: ["SCSS", "NextJS", "Postman", "Express"],
-    //   links: ["visit ", "home"],
-    //   id: 6,
-    // },
+   
   ];
   console.log(design[0].technologies);
   return (
