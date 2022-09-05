@@ -41,6 +41,15 @@ const ProjectIndividual = () => {
       website: "https://www.figma.com/proto/ngjI1rbryGHOL90MvymDnW/Untitled?node-id=1%3A1799&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3035",
       id: 4,
     },
+    {
+      image: "Images/WeatherAppCover.jpg",
+      title: "Weather App",
+      summary: "Search for the current weather in any location using this weather app.",
+      technologies: ["React", "CSS", "Axios",],
+      github: "https://github.com/leoarthurwall/Weather-App",
+      website: "https://leowall-weather.netlify.app/",
+      id: 5,
+    },
     // {
     //   image:
     //     "https://opengeekslab.com/wp-content/uploads/2020/01/Technologies-Development-Team.png",

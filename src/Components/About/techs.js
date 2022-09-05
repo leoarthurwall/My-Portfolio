@@ -95,7 +95,10 @@ function AboutTechs(){
                     <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
                     <li className="about-section-tech-list">Auth0</li>
                   </div>
-                
+                  <div className="about-section-tech-arrow-list-container">
+                    <ArrowRightIcon sx={{color: "#DD6031" }} fontSize="small"/>
+                    <li className="about-section-tech-list">Typescript</li>
+                  </div>
                 </div>
               </div>
               </div>
