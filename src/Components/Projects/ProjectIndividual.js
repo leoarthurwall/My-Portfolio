@@ -42,7 +42,7 @@ const ProjectIndividual = () => {
       id: 4,
     },
     {
-      image: "Images/WeatherAppCover.jpg",
+      image: "Images/WeatherCoverImage.jpg",
       title: "Weather App",
       summary: "Search for the current weather in any location using this weather app.",
       technologies: ["React", "CSS", "Axios",],
