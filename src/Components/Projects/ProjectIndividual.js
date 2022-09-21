@@ -45,10 +45,19 @@ const ProjectIndividual = () => {
       image: "Images/WeatherCoverImage.jpg",
       title: "Weather App",
       summary: "Search for the current weather in any location using this weather app.",
-      technologies: ["React", "CSS", "Axios",],
+      technologies: ["React.js", "CSS", "Axios",],
       github: "https://github.com/leoarthurwall/Weather-App",
       website: "https://leowall-weather.netlify.app/",
       id: 5,
+    },
+    {
+      image: "Images/WeatherCoverImage.jpg",
+      title: "Todo App",
+      summary: "The CRUD todo app. Create, Read, update & Delete your todos. They are also saved to local storage so you can come back to them, whenever you feel like",
+      technologies: ["React.js", "CSS", "heroIcons",],
+      github: "https://github.com/leoarthurwall/new-todo-list",
+      website: "https://leowall-todo.netlify.app/",
+      id: 6,
     },
    
   ];
