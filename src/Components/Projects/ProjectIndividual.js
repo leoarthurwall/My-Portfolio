@@ -51,7 +51,7 @@ const ProjectIndividual = () => {
       id: 5,
     },
     {
-      image: "Images/WeatherCoverImage.jpg",
+      image: "Images/todoCover.png",
       title: "Todo App",
       summary: "The CRUD todo app. Create, Read, update & Delete your todos. They are also saved to local storage so you can come back to them, whenever you feel like",
       technologies: ["React.js", "CSS", "heroIcons",],
