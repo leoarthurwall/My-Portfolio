@@ -60,8 +60,8 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li className="resume-button">
-              <LinkButton className="resume-button-nav" hrefProp={`Resume/ResumeLeoWall.pdf`} bodyProp={"CV"} />
+            <li className="nav-list-item">
+              <LinkButton className="nav-link" hrefProp={`Resume/ResumeLeoWall.pdf`} bodyProp={"CV"} />
             </li>
           </ul>
         </nav>

@@ -13,7 +13,7 @@
     align-items: center;
     z-index: 1;
     justify-content: space-between;
-    padding: 0 1%;
+    padding: 0 5%;
 }
 .navlogo{
     width: 7%;
@@ -40,11 +40,17 @@
 }
 .nav-list-container{
     display: flex;
-    align-items:center;
+    align-items: center;
+    height: 100%;
 
 }
 
     .nav-list-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
         list-style: none;
         margin: 1rem;
         font-family: $font-family;
@@ -55,20 +61,18 @@
             text-decoration: none;
             text-transform: uppercase;
             color: $the-dot-docoration-color;
-            min-width: 130px;
-            padding: 10px 0;
+            
             cursor: pointer;
             transition: ease-out 0.1s;
             border-bottom: 3px solid none;
+           
 
             &:hover {
                 border-bottom: 3px solid $heading-text-colors;
             }
         } 
     }
-    .resume-button {
-        list-style: none;
-    }
+    
 
 
 //PHONE
@@ -92,9 +96,12 @@
     }
    .nav-list-item {
     margin: 0.5rem;
-   }
-   .nav-link{
-    font-size: 0.5rem;
+
+
+        .nav-link{
+        font-size: 0.6rem;
+        
+        }
    }
    .header {
     justify-content: space-around;
