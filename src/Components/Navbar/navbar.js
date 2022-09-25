@@ -22,6 +22,7 @@ function Navbar() {
           <ul className="nav-list-container" >
             <li className="nav-list-item">
               <Link
+                className="nav-link"
                 activeClass="active"
                 to="about-section-header"
                 spy={true}
@@ -35,6 +36,7 @@ function Navbar() {
 
             <li className="nav-list-item">
               <Link
+                className="nav-link"
                 activeClass="active"
                 to="projects-section-header"
                 spy={true}
@@ -47,6 +49,7 @@ function Navbar() {
             </li>
             <li className="nav-list-item">
               <Link
+                className="nav-link"
                 activeClass="active"
                 to="contact-header"
                 spy={true}
