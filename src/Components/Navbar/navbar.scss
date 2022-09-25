@@ -70,8 +70,12 @@
         list-style: none;
     }
 
+
+//PHONE
+
+
 //DESKTOP
-@media (max-width: 1024px){
+@media  (max-width: 1024px) {
     .navlogo{
         margin-left: 5%;
         &:hover {
@@ -81,6 +85,21 @@
     }
 }
 
+@media  (max-width:480px){
+    .navlogo {
+        font-size: 1.1rem;
+        
+    }
+   .nav-list-item {
+    margin: 0.5rem;
+   }
+   .nav-link{
+    font-size: 0.5rem;
+   }
+   .header {
+    justify-content: space-around;
+   }
+}    
 //TABLET
 
 // @media screen and (max-width: 769px) and (min-width: 482px) {
@@ -89,11 +108,5 @@
 //     }
 // }
   
-//PHONE
 
-@media  (max-width:480px){
-    .navlogo {
-        font-size: 1.1rem;
-    }
-}
 
