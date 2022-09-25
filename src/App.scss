@@ -1,9 +1,12 @@
 @import '../src/color.scss';
 
+body {
+  background: $background-color;
+}
+
 .App {
   width: 100%;
   display: inline-block;
-  background: $background-color;
 }
 
 * {
