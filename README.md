@@ -43,10 +43,18 @@ Read on and get to grips with how the portfolio was designed and built.
 
 ## SKILLS USED AND LEARNED
 
-- Making a responsive website: use of relative and absolute sizing, media queries, flexbox
-- File Structure for components/sections
-- getting to grips with CSS to meet spec of hi-fi prototype
-- Building a full, 1-page, scrollable website
+- Making a responsive website: use of relative and absolute sizing, media queries, flexbox.
+- File Structure for components/sections.
+- Designing a professional looking website with design tools: Miro & Figma.
+- getting to grips with CSS to meet spec of hi-fi prototype.
+- Building a full, 1-page, scrollable website.
+
+## TECH STACK
+- React.js
+- SCSS
+- Figma
+- Miro
+- MUI Icons
 
 
 
