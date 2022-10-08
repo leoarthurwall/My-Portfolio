@@ -1,8 +1,10 @@
 # My Portfolio
 
 
-figma design
-![image](https://user-images.githubusercontent.com/90926637/179315920-a64042b6-4664-42fd-bfdf-6d445f91b7d6.png)
+
+![cover image](./public/Images/PortCoverImage.png)
+
+Welcome to my portfolio site. Read on and get to grips with how the portfolio was designed and built.
 
 
 
