@@ -16,6 +16,8 @@ Read on and get to grips with how the portfolio was designed and built.
 - Reusable button component: CV & contact via email.
 - Project image cards have overlay that displays project sumamry, technologies used and links to github and deployed site.
     
+    
+![project section example](./public/Images/ProjectSectionImage.png)
 
 ## PROCESS 
 - Plan
