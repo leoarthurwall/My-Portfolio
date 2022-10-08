@@ -4,73 +4,20 @@
 
 ![cover image](./public/Images/PortCoverImage.png)
 
-Welcome to my portfolio site. Read on and get to grips with how the portfolio was designed and built.
+Welcome to my portfolio site. As with all portfolios, it's a place to anyone to get to know me better, view the projects I've been working, and get in contact with me.
+
+Read on and get to grips with how the portfolio was designed and built.
 
 
+## SITE FEATURES
 
-## :hammer_and_wrench: Getting started
+- 4 main sdections: Introduction, About, Projects & Contact
+- Sticky navbar with scroll links to sections.
+- Reusable button component: CV & contact via email.
+- Project image cards have overlay that displays project sumamry, technologies used and links to github and deployed site.
     
-  // usando npm  
-  
-- Install node modules
 
-
-  ```sh
-   npm install
-   ```
-   
-   
-   
-- Install material Ui- for social icons
-
-
-  ```sh
-  npm install @material-ui/icons 
-   ``` 
-
-
-
-- Install react scroll-  for navbar-scroll fuction 
-
-   ```sh
-   npx install react-scroll
-   ```
-
-
-
-
-- Start the development server
-
-   ```sh
-   npm start
-   ```
-
-## :building_construction: Building and Running for Production
-
-- Generate a full static production build.
-
-   ```sh
-   npm run build
-   ```
-
-1. Preview the site as it will appear once deployed.
-
-   ```sh
-   npm run serve
-   ```
-
-## :dart: key features
-  -Navbutton onclick scroll.
-  -sticky social icon displayed on all pages.
-  -Portfolio design and develop toggling.
-    
-    
-## :test_tube: tech stack
-
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <p align="left"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a><a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a></a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
-
-
-## :motorway: PROCESS 
+## PROCESS 
 - Plan
     - Miro
         - step-1 set up a miro board to use as a collaborative platform for planing. 
@@ -81,7 +28,7 @@ Welcome to my portfolio site. Read on and get to grips with how the portfolio wa
     - Component/ function tree
         - Next, it was good idea to use the previously gained inspiration to agree on what sections, functionality & componenta that would include. 
         
-## :art: DESIGN
+## DESIGN
 - Design
     - Lo-fi Prototype
         - We developed a lo-fi prototype using miro to get an idea of how our single-page portfolio will be laidout. all of the previously agreed sections, functions and components were now put into their respective layout.
