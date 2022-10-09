@@ -48,6 +48,8 @@ Read on and get to grips with how the portfolio was designed and built.
 - Designing a professional looking website with design tools: Miro & Figma.
 - getting to grips with CSS to meet spec of hi-fi prototype.
 - Building a full, 1-page, scrollable website.
+- Deployment: learning how to deploy on Netlify on an independent project.
+
 
 ## TECH STACK
 - React.js
@@ -55,6 +57,9 @@ Read on and get to grips with how the portfolio was designed and built.
 - Figma
 - Miro
 - MUI Icons
+- Netlify
 
+## FUTURE DEVELOPMENTS
 
-
+- burger menu for the nav bar when in mobile view
+- re-write/design of the about section to make it visually appealing and concise
