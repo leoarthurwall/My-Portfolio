@@ -5,7 +5,7 @@ function AboutTechs() {
   return (
     <div className="about-section-tech-section">
       <h4 className="about-section-summary-h4">
-        Key texhnologies worked with:
+        Key technologies I work with:
       </h4>
 
       <div className="about-section-tech-container">
@@ -14,55 +14,28 @@ function AboutTechs() {
           <TechItem techName={"HTML"} />
           <TechItem techName={"CSS"} />
           <TechItem techName={"Javascript"} />
-        </div>
-        <div className="about-section-tech-body">
           <TechItem techName={"React.js"} />
           <TechItem techName={"Typescript"} />
+          <TechItem techName={"Next.js"} />
+        </div>
+        <div className="about-section-tech-body">
+          <TechItem techName={"Git/Github"} />
           <TechItem techName={"Jest"} />
           <TechItem techName={"Cypress"} />
+          <TechItem techName={"SCSS"} />
+          <TechItem techName={"Auth0"} />
+          <TechItem techName={"Heroku"} />
+          <TechItem techName={"Netlify"} />
         </div>
         <div className="about-section-tech-body">
           <TechItem techName={"Node.js"} />
           <TechItem techName={"Express.ja"} />
           <TechItem techName={"PostgreSQL"} />
           <TechItem techName={"Firebase"} />
-
-          {/* <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">AWS</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Miro</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Next js</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Auth0</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Heroku</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Git/GitHub</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Netlify</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">SCSS</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Styled Components</li>
-          </div> */}
+          <TechItem techName={"AWS"} />
+          <TechItem techName={"Miro"} />
+          <TechItem techName={"Styled Components"} />
+  
         </div>
       </div>
     </div>
