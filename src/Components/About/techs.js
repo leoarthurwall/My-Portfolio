@@ -13,6 +13,9 @@ function AboutTechs() {
       <div className="about-section-tech-container">
         <div className="about-section-tech-body">
         <TechItem techName={"Figma"}/>
+        <TechItem techName={"HTML"}/>
+        <TechItem techName={"CSS"}/>
+        <TechItem techName={"Javascript"}/>
           <div className="about-section-tech-arrow-list-container">
             <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
             <li className="about-section-tech-list">Figma</li>
