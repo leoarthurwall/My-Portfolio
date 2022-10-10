@@ -1,7 +1,5 @@
 import "../About/about.scss";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import TechItem from "./TechItem/TechItem";
-
 
 function AboutTechs() {
   return (
@@ -12,62 +10,22 @@ function AboutTechs() {
 
       <div className="about-section-tech-container">
         <div className="about-section-tech-body">
-        <TechItem techName={"Figma"}/>
-        <TechItem techName={"HTML"}/>
-        <TechItem techName={"CSS"}/>
-        <TechItem techName={"Javascript"}/>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Figma</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">HTML</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">CSS</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Javascript</li>
-          </div>
+          <TechItem techName={"Figma"} />
+          <TechItem techName={"HTML"} />
+          <TechItem techName={"CSS"} />
+          <TechItem techName={"Javascript"} />
         </div>
         <div className="about-section-tech-body">
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">React js</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Typescript</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Cypress</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Jest</li>
-          </div>
+          <TechItem techName={"React.js"} />
+          <TechItem techName={"Typescript"} />
+          <TechItem techName={"Jest"} />
+          <TechItem techName={"Cypress"} />
         </div>
         <div className="about-section-tech-body">
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Node.js</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Express.js</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">PostgresSQL</li>
-          </div>
-          <div className="about-section-tech-arrow-list-container">
-            <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
-            <li className="about-section-tech-list">Firebase</li>
-          </div>
+          <TechItem techName={"Node.js"} />
+          <TechItem techName={"Express.ja"} />
+          <TechItem techName={"PostgreSQL"} />
+          <TechItem techName={"Firebase"} />
 
           {/* <div className="about-section-tech-arrow-list-container">
             <ArrowRightIcon sx={{ color: "#DD6031" }} fontSize="small" />
