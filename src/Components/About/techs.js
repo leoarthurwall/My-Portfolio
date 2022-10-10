@@ -5,7 +5,7 @@ function AboutTechs() {
   return (
     <div className="about-section-tech-section">
       <h4 className="about-section-summary-h4">
-        Here are some of the technologies I've worked with:
+        Key texhnologies worked with:
       </h4>
 
       <div className="about-section-tech-container">
