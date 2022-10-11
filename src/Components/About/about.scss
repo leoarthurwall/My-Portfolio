@@ -56,9 +56,9 @@
 
     font-family: $font-family;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
-    color: $secondary-font-color;
+    color: $para-color;
 }
 
 /* ABOUT HEADER WORDING*/
@@ -98,14 +98,14 @@
  .about-section-summary-p {
      margin-bottom: 1.1rem;
      font-size: 0.8rem;
-     font-weight: 200;
-
+     font-weight: 300;
+    color: $para-color;
     }
  .about-section-summary-h4 {
     margin-bottom: 1.1rem;
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: $secondary-font-color;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $para-color;
 }
 
 
