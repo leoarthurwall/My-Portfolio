@@ -7,7 +7,6 @@ function AboutTechs() {
       <h4 className="about-section-summary-h4">
         Key technologies I work with:
       </h4>
-
       <div className="about-section-tech-container">
         <div className="about-section-tech-body">
           <TechItem techName={"Figma"} />
@@ -35,7 +34,6 @@ function AboutTechs() {
           <TechItem techName={"AWS"} />
           <TechItem techName={"Miro"} />
           <TechItem techName={"Styled Components"} />
-  
         </div>
       </div>
     </div>
