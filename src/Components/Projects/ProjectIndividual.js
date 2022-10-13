@@ -35,7 +35,7 @@ const ProjectIndividual = () => {
     {
       image: "Images/RecipeApp.png",
       title: "The Recipe App",
-      summary: "Dicover a whole world of recipes simply by entering a single ingredient. The recipe app was developed using React and Typescript and used a recipe API to gather the data. Attention was given to the simple and user friendly UI",
+      summary: "Dicover a whole world of recipes simply by entering a single ingredient. The recipe app was developed using React and Typescript and used a recipe API to gather the data. Attention was given to the simple and user friendly UI.",
       technologies: ["React", "Typescript", "CSS", "API"],
       github: "https://github.com/leoarthurwall/Recipe-App",
       website: "https://lw-recipefinder.netlify.app/",
