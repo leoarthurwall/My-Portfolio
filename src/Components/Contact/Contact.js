@@ -39,7 +39,6 @@ function Contact() {
             </a>
             <a className="contact-footer-icon-individual" href={`Resume/ResumeLeoWall.pdf`} target="_blank" rel="noopener noreferrer">
             <FileOpenIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
-              {/* <img className="contact-footer-resume-icon" src="Images/Resume.png" alt= "view resume" /> */}
             </a>
           </div>
         </div>

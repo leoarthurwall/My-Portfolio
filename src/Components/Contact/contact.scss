@@ -120,6 +120,8 @@
 .contact-footer-icon-individual {
     text-decoration: none;
      color: inherit;
+     transition: ease-out 0.4s;
+
      &:hover{
         color: $heading-text-colors;
     }
