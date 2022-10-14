@@ -14,7 +14,6 @@ function Navbar() {
           offset={-200}
           duration={500}
         >
-          {/* <h1>LW</h1> */}
           <img
             className="logo-image"
             src="Images/ProfileLogo.png"
