@@ -120,12 +120,19 @@
 .contact-footer-icon-individual {
     text-decoration: none;
      color: inherit;
+     &:hover{
+        color: $heading-text-colors;
+    }
 }
 
 .contact-footer-resume-icon {
     width: 1.2rem;
     filter: brightness(0) invert(1);
+    &:hover{
+        color: $heading-text-colors;
+    }
 }
+
 
 
 //MEDIA QUERIES

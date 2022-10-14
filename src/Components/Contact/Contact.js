@@ -3,6 +3,7 @@ import LinkButton from "../LinkButton/LinkButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import FileOpenIcon from '@mui/icons-material/FileOpen';
 // import resume from "../../../public/Images/Resume.png"
 
 
@@ -28,16 +29,17 @@ function Contact() {
           <h5 className="contact-footer-made-by">© 2022. Designed & Built by Leo Wall.</h5>
           <div className="contact-footer-icon-container">
             <a className="contact-footer-icon-individual" href={"https://github.com/leoarthurwall"} target="_blank" rel="noopener noreferrer">
-              <GitHubIcon sx={{fontSize: "1.2rem" }}/>  
+              <GitHubIcon className="footer-icon" sx={{fontSize: "1.2rem" }}/>  
             </a>
             <a className="contact-footer-icon-individual" href={"https://www.linkedin.com/in/leo-wall/"} target="_blank" rel="noopener noreferrer">
-              <LinkedInIcon sx={{fontSize: "1.2rem" }}/>
+              <LinkedInIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
             </a>
             <a className="contact-footer-icon-individual" href={`mailto:leowall93@gmail.com`} target="_blank" rel="noopener noreferrer">
-              <EmailIcon sx={{fontSize: "1.2rem" }}/>
+              <EmailIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
             </a>
             <a className="contact-footer-icon-individual" href={`Resume/ResumeLeoWall.pdf`} target="_blank" rel="noopener noreferrer">
-              <img className="contact-footer-resume-icon" src="Images/Resume.png" alt= "view resume" />
+            <FileOpenIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
+              {/* <img className="contact-footer-resume-icon" src="Images/Resume.png" alt= "view resume" /> */}
             </a>
           </div>
         </div>
