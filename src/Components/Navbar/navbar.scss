@@ -61,12 +61,12 @@
             color: $the-dot-docoration-color;
             
             cursor: pointer;
-            transition: ease-out 0.1s;
+            transition: ease-out 0.2s;
             border-bottom: 3px solid none;
            
 
             &:hover {
-                border-bottom: 3px solid $heading-text-colors;
+                color: $heading-text-colors;
             }
         } 
     }
