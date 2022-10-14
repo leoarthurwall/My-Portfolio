@@ -3,8 +3,7 @@ import LinkButton from "../LinkButton/LinkButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import FileOpenIcon from '@mui/icons-material/FileOpen';
-// import resume from "../../../public/Images/Resume.png"
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 
 
@@ -38,7 +37,7 @@ function Contact() {
               <EmailIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
             </a>
             <a className="contact-footer-icon-individual" href={`Resume/ResumeLeoWall.pdf`} target="_blank" rel="noopener noreferrer">
-            <FileOpenIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
+            <ContactPageIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
             </a>
           </div>
         </div>
