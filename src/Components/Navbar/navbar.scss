@@ -9,7 +9,6 @@
     background: $background-color;
 
     width: 100%;
-    margin-top: 10px;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -17,21 +16,19 @@
     padding: 0 5%;
 }
 .navlogo{
-    width: auto;
     text-align: center;
     display: flex;
     justify-content: center;
-    font-size: 1.4rem ;
     
-    color: $heading-text-colors;
-    font-family: 'schoolbell';   
     cursor: pointer;
-    transition: ease-out 0.4s;
 
 
     &:hover {
         color:white;
         // font-size: 1.3rem;
+    }
+    .logo-image{
+        width: 70px;
     }
 }
 

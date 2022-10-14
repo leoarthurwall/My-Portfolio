@@ -14,12 +14,17 @@ function Navbar() {
           offset={-200}
           duration={500}
         >
-          <h1>LW</h1>
+          {/* <h1>LW</h1> */}
+          <img
+            className="logo-image"
+            src="Images/ProfileLogo.png"
+            alt="logo"
+          ></img>
         </Link>
       </div>
       <div className="nav-right">
         <nav>
-          <ul className="nav-list-container" >
+          <ul className="nav-list-container">
             <li className="nav-list-item">
               <Link
                 className="nav-link"
@@ -61,7 +66,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-list-item">
-              <LinkButton className="nav-link" hrefProp={`Resume/ResumeLeoWall.pdf`} bodyProp={"CV"} />
+              <LinkButton
+                className="nav-link"
+                hrefProp={`Resume/ResumeLeoWall.pdf`}
+                bodyProp={"CV"}
+              />
             </li>
           </ul>
         </nav>
