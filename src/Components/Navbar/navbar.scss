@@ -74,21 +74,10 @@
 
 
 //DESKTOP
-@media  (max-width: 1024px) {
-    .navlogo{
-        margin-left: 5%;
-        &:hover {
-            font-size: 1.4rem ;
-            color: $heading-text-colors;
-        }
-    }
-}
 
 @media  (max-width:480px){
-    .navlogo {
-        font-size: 1rem;
-        margin: 0.7rem;
-        
+    .logo-image{
+        width: 40px;
     }
    .nav-list-item {
     margin: 0.7rem;
