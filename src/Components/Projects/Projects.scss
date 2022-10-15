@@ -42,22 +42,24 @@
     margin-left: 2%;
     width: 80%;
 }
-
-.project-summary-text{
-    color: white;
-    text-align: left;
-    font-family: $font-family;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.8rem;
-    .word-highlight{
-        color: $heading-text-colors;
-        font-weight: 400;
-        cursor: pointer;
-        text-decoration: underline 0.1em rgba(255, 255, 255, 0);
-        transition: text-decoration-color 300ms;
-        &:hover{
-            text-decoration: underline 0.1em rgba(255, 255, 255, 1);
+.project-summary-text-a{
+text-decoration: none;
+    .project-summary-text{
+        color: white;
+        text-align: left;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.8rem;
+        .word-highlight{
+            color: $heading-text-colors;
+            font-weight: 400;
+            cursor: pointer;
+            text-decoration: underline 0.1em rgba(255, 255, 255, 0);
+            transition: text-decoration-color 300ms;
+            &:hover{
+                text-decoration: underline 0.1em rgba(255, 255, 255, 1);
+            }
         }
     }
 }
