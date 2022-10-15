@@ -16,7 +16,7 @@ function Navbar() {
         >
           <img
             className="logo-image"
-            src="Images/ProfileLogo.png"
+            src="Images/ProfileLogoCropped.png"
             alt="logo"
           ></img>
         </Link>
