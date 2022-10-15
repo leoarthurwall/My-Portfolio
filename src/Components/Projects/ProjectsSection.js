@@ -1,5 +1,5 @@
 import './Projects.scss'
-import DesignTab from "./ProjectIndividual";
+import ProjectIndividual from "./ProjectIndividual";
 
 function ProjectsSection () {
     return (
@@ -9,7 +9,8 @@ function ProjectsSection () {
                 <hr className='projects-header-wording-line'></hr>
             </div>
             <div className="projects-section-main">
-                <DesignTab /> 
+                <p>Here is a selection of my most recent work.</p>
+                <ProjectIndividual /> 
             </div>
         </div>
     );
