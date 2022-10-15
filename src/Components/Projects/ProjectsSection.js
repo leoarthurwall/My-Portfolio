@@ -1,21 +1,23 @@
-import './Projects.scss'
+import "./Projects.scss";
 import ProjectIndividual from "./ProjectIndividual";
 
-function ProjectsSection () {
-    return (
-        <div className="projects-section-container">
-            <div className="projects-section-header">
-                <h1 className="projects-header-wording">Projects</h1>
-                <hr className='projects-header-wording-line'></hr>
-            </div>
-            <div className="projects-section-main">
-                <p>Here is a selection of my most recent work.</p>
-                <ProjectIndividual /> 
-            </div>
-        </div>
-    );
+function ProjectsSection() {
+  return (
+    <div className="projects-section-container">
+      <div className="projects-section-header">
+        <h1 className="projects-header-wording">Projects</h1>
+        <hr className="projects-header-wording-line"></hr>
+      </div>
+      <p className="project-summary-text">
+        Here is a selection of my work. If you're interested in seeing more of my work, feel free to head over to my <span className="word-highlight">GitHub</span> profile.
+      </p>
+      <div className="projects-section-main">
+        <ProjectIndividual />
+      </div>
+    </div>
+  );
 }
 
-export default ProjectsSection
+export default ProjectsSection;
 
 // TABS TUTORIAL: https://blog.logrocket.com/how-to-build-tab-component-react/
