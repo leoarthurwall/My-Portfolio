@@ -1,14 +1,16 @@
 import "../navbar.scss";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 
 const NavMobile = () => {
-    const [menuClicked, setMenuClicked] = useState(false)
+  const [menuClicked, setMenuClicked] = useState(false);
   return (
     <nav>
-        <MenuIcon />
+      <div>
+        <MenuIcon sx={{ fontSize: "1.2rem" }} />
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavMobile
+export default NavMobile;

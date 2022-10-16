@@ -28,16 +28,16 @@ function Contact() {
           <h5 className="contact-footer-made-by">© 2022. Designed & Built by Leo Wall.</h5>
           <div className="contact-footer-icon-container">
             <a className="contact-footer-icon-individual" href={"https://github.com/leoarthurwall"} target="_blank" rel="noopener noreferrer">
-              <GitHubIcon className="footer-icon" sx={{fontSize: "1.2rem" }}/>  
+              <GitHubIcon sx={{fontSize: "1.2rem" }}/>  
             </a>
             <a className="contact-footer-icon-individual" href={"https://www.linkedin.com/in/leo-wall/"} target="_blank" rel="noopener noreferrer">
-              <LinkedInIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
+              <LinkedInIcon  sx={{fontSize: "1.2rem" }}/>
             </a>
             <a className="contact-footer-icon-individual" href={`mailto:leowall93@gmail.com`} target="_blank" rel="noopener noreferrer">
-              <EmailIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
+              <EmailIcon  sx={{fontSize: "1.2rem" }}/>
             </a>
             <a className="contact-footer-icon-individual" href={`Resume/ResumeLeoWall.pdf`} target="_blank" rel="noopener noreferrer">
-            <ContactPageIcon className="footer-icon"  sx={{fontSize: "1.2rem" }}/>
+            <ContactPageIcon  sx={{fontSize: "1.2rem" }}/>
             </a>
           </div>
         </div>
