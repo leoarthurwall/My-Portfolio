@@ -102,6 +102,22 @@
         margin-top: 1rem;
 
      }
+     .modal-icon-container{
+        display: flex;
+        flex-direction: column;
+     }
+     .modal-icon-individual{
+        text-decoration: none;
+        color: $secondary-font-color;
+        display: flex;
+        flex-direction: row;
+        gap:0.5rem;
+        margin-top: 1rem;
+     }
+     .nav-mobile-modal-icon-container{
+        display: flex;
+        flex-direction: row;
+     }
 
 //DESKTOP
 
@@ -125,13 +141,6 @@
         width: 60px;
     }
 }
-//TABLET
 
-// @media screen and (max-width: 769px) and (min-width: 482px) {
-//     .resume-button {
-//       display: none;
-//     }
-// }
-  
 
 
