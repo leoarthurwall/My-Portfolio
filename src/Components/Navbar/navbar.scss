@@ -76,12 +76,17 @@
         color: white;
     }
     
-    .nav-menu-modal-container{
-        display: relative;
-        height: 100%;
-        width: 100%;
-        top:70px;
-        background-color: $background-color;
+    .nav-mobile-container{
+        // position: relative;
+        .nav-menu-modal-container{
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            top:70px;
+            left: 0;
+            // background-color: $background-color;
+            background-color: red;   
+        }
     }
 
 
