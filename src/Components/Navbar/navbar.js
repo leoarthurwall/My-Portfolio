@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import { useMediaQuery } from 'react-responsive'
+
 import "./navbar.scss";
 import NavDesktop from "./NavDesktop/NavDesktop";
 import NavMobile from "./NavMobile/NavMobile";
