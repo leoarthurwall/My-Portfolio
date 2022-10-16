@@ -1,13 +1,12 @@
 import { Link } from "react-scroll";
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from "react-responsive";
 
 import "./navbar.scss";
 import NavDesktop from "./NavDesktop/NavDesktop";
 import NavMobile from "./NavMobile/NavMobile";
 
 function Navbar() {
-  const isMobileScreen = useMediaQuery({ query: '(max-width: 481px)' })
-
+  const isMobileScreen = useMediaQuery({ query: "(max-width: 480px)" });
 
   return (
     <div className="header">
@@ -28,19 +27,17 @@ function Navbar() {
         </Link>
       </div>
       <div className="nav-right">
-       
-        { isMobileScreen ? (<NavMobile />): ( <NavDesktop />)}
+        {isMobileScreen ? <NavMobile /> : <NavDesktop />}
       </div>
     </div>
   );
 }
 export default Navbar;
 
-
 //NAVBAR - burger menu plan
 // Display Burger menu icon
 // Display menu modal
 // add onclick functionality to icon
-// add media queries to display icon only in mobile 
+// add media queries to display icon only in mobile
 // add links to modal
 // add onclick functionality to links - when section links are clicked, modal dissapears automatically

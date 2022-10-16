@@ -10,7 +10,7 @@ const NavMobile = () => {
 
     <nav>
       <div className="nav-menu-icon-container">
-        <MenuIcon sx={{ fontSize: "1.7rem" }} />
+        <MenuIcon sx={{ fontSize: "2.5rem" }} />
       </div>
     </nav>
   );
