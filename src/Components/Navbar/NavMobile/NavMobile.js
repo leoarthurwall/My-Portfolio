@@ -13,11 +13,11 @@ const NavMobile = () => {
 
 
     <nav>
-      <div className="nav-menu-icon-container" onClick={handleMenuClick}>
-        <MenuIcon sx={{ fontSize: "2.5rem" }} />
+      <div className="nav-menu-icon-container" >
+        <MenuIcon sx={{ fontSize: "2.5rem" }} onClick={handleMenuClick}/>
       </div>
       {menuClicked ? ( <div className="nav-menu-modal-container">
-
+        hello
       </div>):(null)}
      
     </nav>
