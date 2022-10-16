@@ -40,14 +40,13 @@
 
 }
 
-    .nav-list-item {
+    .nav-list-item-mobile{
         display: flex;
-
-
         list-style: none;
         margin-left: 1.5rem;
         font-family: $font-family;
         padding: 0%;
+        color: $the-dot-docoration-color;
 
         .nav-link {
             font-size: 0.75rem;
@@ -89,6 +88,15 @@
         }
     }
 
+    .nav-menu-modal-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-list-item-mobile{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;    }
 
 //DESKTOP
 
