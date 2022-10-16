@@ -6,6 +6,8 @@ const NavMobile = () => {
   const [menuClicked, setMenuClicked] = useState(false);
 
   return (
+
+
     <nav>
       <div className="nav-menu-icon-container">
         <MenuIcon sx={{ fontSize: "1.7rem" }} />

@@ -6,6 +6,9 @@ import NavDesktop from "./NavDesktop/NavDesktop";
 import NavMobile from "./NavMobile/NavMobile";
 
 function Navbar() {
+  const isMobileScreen = useMediaQuery({ query: '(max-width: 481px)' })
+
+
   return (
     <div className="header">
       <div className="navlogo">
@@ -25,8 +28,8 @@ function Navbar() {
         </Link>
       </div>
       <div className="nav-right">
-        {/* <NavDesktop /> */}
-        <NavMobile />
+       
+        { isMobileScreen ? (<NavMobile />): ( <NavDesktop />)}
       </div>
     </div>
   );
