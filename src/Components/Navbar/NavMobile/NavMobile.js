@@ -4,10 +4,11 @@ import { useState } from "react";
 
 const NavMobile = () => {
   const [menuClicked, setMenuClicked] = useState(false);
+
   return (
     <nav>
-      <div>
-        <MenuIcon sx={{ fontSize: "1.2rem" }} />
+      <div className="nav-menu-icon-container">
+        <MenuIcon sx={{ fontSize: "1.7rem" }} />
       </div>
     </nav>
   );

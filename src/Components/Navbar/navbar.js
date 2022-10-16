@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import "./navbar.scss";
 import NavDesktop from "./NavDesktop/NavDesktop";
+import NavMobile from "./NavMobile/NavMobile";
 
 function Navbar() {
   return (
@@ -22,7 +23,8 @@ function Navbar() {
         </Link>
       </div>
       <div className="nav-right">
-        <NavDesktop />
+        {/* <NavDesktop /> */}
+        <NavMobile />
       </div>
     </div>
   );
