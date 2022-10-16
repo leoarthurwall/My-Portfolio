@@ -66,14 +66,23 @@
         } 
     }
     
-.nav-menu-icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-//PHONE
+    
+    
+    //NAV MOBILE 
+    .nav-menu-icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .nav-menu-modal-container{
+        display: relative;
+        height: 100%;
+        width: 100%;
+        top:70px;
+        background-color: $background-color;
+    }
 
 
 //DESKTOP
