@@ -78,3 +78,12 @@ function Navbar() {
   );
 }
 export default Navbar;
+
+
+//NAVBAR - burger menu plan
+// Display Burger menu icon
+// Display menu modal
+// add onclick functionality to icon
+// add media queries to display icon only in mobile 
+// add links to modal
+// add onclick functionality to links - when section links are clicked, modal dissapears automatically
