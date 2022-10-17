@@ -91,12 +91,21 @@
     .nav-menu-modal-container{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        padding: 0 10%;
+    }
+    .nav-list-container-mobile{
+        width: 100%;
+        padding: 0;
+
     }
     .nav-list-item-mobile{
         list-style-type: none;
         margin: 0;
         padding: 0;   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
      }
      .nav-link-mobile {
         margin-top: 1rem;
