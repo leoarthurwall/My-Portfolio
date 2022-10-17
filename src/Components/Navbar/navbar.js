@@ -21,6 +21,7 @@ function Navbar() {
     <div className="header">
       <div className="navlogo">
         <Link
+          onClick={handleLinkClick}
           activeClass="active"
           to="intro-section"
           spy={true}
@@ -36,7 +37,15 @@ function Navbar() {
         </Link>
       </div>
       <div className="nav-right">
-        {isMobileScreen ? <NavMobile handleMenuClick={handleMenuClick} handleLinkClick={handleLinkClick} menuClicked={menuClicked} /> : <NavDesktop />}
+        {isMobileScreen ? (
+          <NavMobile
+            handleMenuClick={handleMenuClick}
+            handleLinkClick={handleLinkClick}
+            menuClicked={menuClicked}
+          />
+        ) : (
+          <NavDesktop />
+        )}
       </div>
     </div>
   );
