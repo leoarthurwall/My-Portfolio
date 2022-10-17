@@ -67,6 +67,7 @@ const NavMobile = () => {
             </li>
             <li className="nav-list-item-mobile">
               <a
+                className="nav-list-item-anchor"
                 href={"https://github.com/leoarthurwall"}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -77,6 +78,7 @@ const NavMobile = () => {
             </li>
             <li className="nav-list-item-mobile">
               <a
+                className="nav-list-item-anchor"
                 href={"https://www.linkedin.com/in/leo-wall/"}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,6 +89,7 @@ const NavMobile = () => {
             </li>
             <li className="nav-list-item-mobile">
               <a
+                className="nav-list-item-anchor"
                 href={`mailto:leowall93@gmail.com`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -97,6 +100,7 @@ const NavMobile = () => {
             </li>
             <li className="nav-list-item-mobile">
               <a
+                className="nav-list-item-anchor"
                 href={`Resume/ResumeLeoWall.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
