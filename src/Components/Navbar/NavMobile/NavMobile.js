@@ -31,7 +31,7 @@ const NavMobile = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={500}
+                duration={0}
               >
                 <p className="modal-menu-name">About</p>
               </Link>
@@ -45,7 +45,7 @@ const NavMobile = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={500}
+                duration={0}
               >
                 <p className="modal-menu-name">Projects</p>
               </Link>
@@ -59,7 +59,7 @@ const NavMobile = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={500}
+                duration={0}
               >
                 <p className="modal-menu-name">Contact</p>
               </Link>
