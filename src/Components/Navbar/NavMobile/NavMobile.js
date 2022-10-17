@@ -2,21 +2,38 @@ import "../navbar.scss";
 import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from "@mui/icons-material/Close";
 
-const NavMobile = ({menuClicked, handleMenuClick, handleLinkClick}) => {
-
+const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
   return (
     <nav className="nav-mobile-container">
       <div className="nav-menu-icon-container">
-      {menuClicked ? (<CloseIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick}/>) : (
-        <MenuIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
-
-      )}
+        {menuClicked ? (
+          <CloseIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
+        ) : (
+          <MenuIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
+        )}
       </div>
       {menuClicked ? (
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
+            <li className="nav-list-item-mobile">
+              <p className="modal-menu-name">Sections</p>
+            </li>
+            <li className="nav-list-item-mobile">
+              <Link
+                onClick={handleLinkClick}
+                activeClass="active"
+                to="intro-container"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={0}
+              >
+                <p className="modal-menu-name">Introduction</p>
+              </Link>
+              <NavigateNextIcon />
+            </li>
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
@@ -58,6 +75,9 @@ const NavMobile = ({menuClicked, handleMenuClick, handleLinkClick}) => {
                 <p className="modal-menu-name">Contact</p>
               </Link>
               <NavigateNextIcon />
+            </li>
+            <li className="nav-list-item-mobile">
+              <p className="modal-menu-name">More</p>
             </li>
             <li className="nav-list-item-mobile">
               <a
