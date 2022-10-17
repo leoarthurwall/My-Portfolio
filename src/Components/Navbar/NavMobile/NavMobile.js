@@ -9,17 +9,14 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
     <nav className="nav-mobile-container">
       <div className="nav-menu-icon-container">
         {menuClicked ? (
-          <CloseIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
+          <CloseIcon sx={{ fontSize: "2rem" }} onClick={handleMenuClick} />
         ) : (
-          <MenuIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
+          <MenuIcon sx={{ fontSize: "2rem" }} onClick={handleMenuClick} />
         )}
       </div>
       {menuClicked ? (
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
-            <li className="nav-list-item-mobile">
-              <p className="modal-menu-header" >Sections</p>
-            </li>
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
@@ -76,9 +73,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               </Link>
               <NavigateNextIcon />
             </li>
-            <li className="nav-list-item-mobile">
-              <p className="modal-menu-header">More</p>
-            </li>
+
             <li className="nav-list-item-mobile">
               <a
                 className="nav-list-item-anchor"
