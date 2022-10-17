@@ -40,7 +40,6 @@ const NavMobile = () => {
                 About
               </Link>
             </li>
-
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
@@ -77,7 +76,6 @@ const NavMobile = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <GitHubIcon sx={{ fontSize: "1.2rem" }} />
                   <p>GitHub</p>
                 </a>
               </div>
@@ -88,7 +86,6 @@ const NavMobile = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <LinkedInIcon sx={{ fontSize: "1.2rem" }} />
                   <p>Linkedin</p>
                 </a>
               </div>
@@ -99,7 +96,6 @@ const NavMobile = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <EmailIcon sx={{ fontSize: "1.2rem" }} />
                   <p>Email</p>
                 </a>
               </div>
@@ -110,7 +106,6 @@ const NavMobile = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <ContactPageIcon sx={{ fontSize: "1.2rem" }} />
                   <p>CV</p>
                 </a>
               </div>
