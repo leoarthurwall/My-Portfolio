@@ -18,7 +18,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
             <li className="nav-list-item-mobile">
-              <p className="modal-menu-name">Sections</p>
+              <p className="modal-menu-name" >Sections</p>
             </li>
             <li className="nav-list-item-mobile">
               <Link
