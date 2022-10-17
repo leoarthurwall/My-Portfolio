@@ -110,8 +110,11 @@
      .nav-list-item-mobile:nth-child(1){
         border-top: 2px solid rgba(#546A93, 0.6);
      }
-     .nav-list-item-mobile:nth-child(5){
-        border-top: 2px solid rgba(#546A93, 0.6);
+    //  .nav-list-item-mobile:nth-child(5){
+    //     border-top: 2px solid rgba(#546A93, 0.6);
+    //  }
+     .nav-list-item-mobile:last-child{
+        border-bottom: 1px solid rgba(#546A93, 0.3);
      }
 
      .nav-list-item-anchor{
