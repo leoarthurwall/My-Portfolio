@@ -18,7 +18,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
             <li className="nav-list-item-mobile">
-              <p className="modal-menu-name" >Sections</p>
+              <p className="modal-menu-header" >Sections</p>
             </li>
             <li className="nav-list-item-mobile">
               <Link
@@ -77,7 +77,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               <NavigateNextIcon />
             </li>
             <li className="nav-list-item-mobile">
-              <p className="modal-menu-name">More</p>
+              <p className="modal-menu-header">More</p>
             </li>
             <li className="nav-list-item-mobile">
               <a
