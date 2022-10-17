@@ -47,6 +47,7 @@
         font-family: $font-family;
         padding: 0%;
         color: $the-dot-docoration-color;
+        cursor: pointer;
 
         .nav-link {
             font-size: 0.75rem;
@@ -111,18 +112,18 @@
         display: flex;
         flex-direction: column;
      }
-     .modal-icon-individual{
-        text-decoration: none;
-        color: $secondary-font-color;
-        display: flex;
-        flex-direction: row;
-        gap:0.5rem;
-        margin-top: 1rem;
-     }
+   
      .nav-mobile-modal-icon-container{
         display: flex;
         flex-direction: row;
      }
+     .modal-menu-name{
+        color: $the-dot-docoration-color;
+        padding: 0;
+        margin: 0;
+     }
+
+//MEDIA QUERIES
 
 //DESKTOP
 

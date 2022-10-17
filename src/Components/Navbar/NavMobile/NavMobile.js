@@ -4,7 +4,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
-
 const NavMobile = () => {
   const [menuClicked, setMenuClicked] = useState(false);
 
@@ -27,7 +26,6 @@ const NavMobile = () => {
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
-                className="nav-link-mobile"
                 activeClass="active"
                 to="about-section-header"
                 spy={true}
@@ -42,7 +40,6 @@ const NavMobile = () => {
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
-                className="nav-link-mobile"
                 activeClass="active"
                 to="projects-section-header"
                 spy={true}
@@ -57,7 +54,6 @@ const NavMobile = () => {
             <li className="nav-list-item-mobile">
               <Link
                 onClick={handleLinkClick}
-                className="nav-link-mobile"
                 activeClass="active"
                 to="contact-header"
                 spy={true}
@@ -69,6 +65,17 @@ const NavMobile = () => {
               </Link>
               <NavigateNextIcon />
             </li>
+            <li className="nav-list-item-mobile">
+              <a
+                href={"https://github.com/leoarthurwall"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="modal-menu-name">GitHub</p>
+              </a>
+              <NavigateNextIcon />
+            </li>
+
             <div className="modal-icon-container">
               <div className="nav-mobile-modal-icon-container">
                 <a
