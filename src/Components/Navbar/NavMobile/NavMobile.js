@@ -3,6 +3,11 @@ import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import CloseIcon from "@mui/icons-material/Close";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
+
 
 const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
   return (
@@ -83,7 +88,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">GitHub</p>
               </a>
-              <NavigateNextIcon />
+              <GitHubIcon />
             </li>
             <li className="nav-list-item-mobile">
               <a
@@ -94,7 +99,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">LinkedIn</p>
               </a>
-              <NavigateNextIcon />
+              <LinkedInIcon />
             </li>
             <li className="nav-list-item-mobile">
               <a
@@ -105,7 +110,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">Email</p>
               </a>
-              <NavigateNextIcon />
+              <EmailIcon />
             </li>
             <li className="nav-list-item-mobile">
               <a
@@ -116,7 +121,7 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">CV</p>
               </a>
-              <NavigateNextIcon />
+              <ContactPageIcon />
             </li>
           </ul>
         </div>
