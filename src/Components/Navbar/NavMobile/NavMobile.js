@@ -3,10 +3,7 @@ import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import ContactPageIcon from "@mui/icons-material/ContactPage";
+
 
 const NavMobile = () => {
   const [menuClicked, setMenuClicked] = useState(false);
@@ -55,6 +52,7 @@ const NavMobile = () => {
               >
                 Projects
               </Link>
+              <NavigateNextIcon />
             </li>
             <li className="nav-list-item-mobile">
               <Link
@@ -69,6 +67,7 @@ const NavMobile = () => {
               >
                 Contact
               </Link>
+              <NavigateNextIcon />
             </li>
             <div className="modal-icon-container">
               <div className="nav-mobile-modal-icon-container">
