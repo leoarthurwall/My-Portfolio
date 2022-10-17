@@ -1,19 +1,9 @@
 import "../navbar.scss";
 import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useState } from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
-const NavMobile = () => {
-  const [menuClicked, setMenuClicked] = useState(false);
-
-  const handleMenuClick = () => {
-    setMenuClicked(!menuClicked);
-  };
-
-  const handleLinkClick = () => {
-    setMenuClicked(false);
-  };
+const NavMobile = ({menuClicked, handleMenuClick, handleLinkClick}) => {
 
   return (
     <nav className="nav-mobile-container">
