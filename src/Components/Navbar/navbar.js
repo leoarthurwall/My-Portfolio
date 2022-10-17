@@ -17,6 +17,7 @@ function Navbar() {
   const handleLinkClick = () => {
     setMenuClicked(false);
   };
+  
   return (
     <div className="header">
       <div className="navlogo">

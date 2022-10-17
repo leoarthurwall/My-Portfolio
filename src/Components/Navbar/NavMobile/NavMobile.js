@@ -2,13 +2,17 @@ import "../navbar.scss";
 import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import CloseIcon from '@mui/icons-material/Close';
 
 const NavMobile = ({menuClicked, handleMenuClick, handleLinkClick}) => {
 
   return (
     <nav className="nav-mobile-container">
       <div className="nav-menu-icon-container">
-        <MenuIcon sx={{ fontSize: "2.5rem" }} onClick={handleMenuClick} />
+      {menuClicked ? (<CloseIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick}/>) : (
+        <MenuIcon sx={{ fontSize: "2.2rem" }} onClick={handleMenuClick} />
+
+      )}
       </div>
       {menuClicked ? (
         <div className="nav-menu-modal-container">
