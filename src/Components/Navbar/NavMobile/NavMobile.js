@@ -77,8 +77,8 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               </Link>
               <NavigateNextIcon />
             </li>
-
             <li className="nav-list-item-mobile">
+              <GitHubIcon />
               <a
                 className="nav-list-item-anchor"
                 href={"https://github.com/leoarthurwall"}
@@ -87,9 +87,9 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">GitHub</p>
               </a>
-              <GitHubIcon />
             </li>
             <li className="nav-list-item-mobile">
+              <LinkedInIcon />
               <a
                 className="nav-list-item-anchor"
                 href={"https://www.linkedin.com/in/leo-wall/"}
@@ -98,9 +98,9 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">LinkedIn</p>
               </a>
-              <LinkedInIcon />
             </li>
             <li className="nav-list-item-mobile">
+              <EmailIcon />
               <a
                 className="nav-list-item-anchor"
                 href={`mailto:leowall93@gmail.com`}
@@ -109,9 +109,9 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">Email</p>
               </a>
-              <EmailIcon />
             </li>
             <li className="nav-list-item-mobile">
+              <ContactPageIcon />
               <a
                 className="nav-list-item-anchor"
                 href={`Resume/ResumeLeoWall.pdf`}
@@ -120,7 +120,6 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               >
                 <p className="modal-menu-name">CV</p>
               </a>
-              <ContactPageIcon />
             </li>
           </ul>
         </div>
