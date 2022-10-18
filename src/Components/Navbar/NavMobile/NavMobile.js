@@ -25,102 +25,102 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
       {menuClicked ? (
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
-            <li className="nav-list-item-mobile">
-              <EmojiPeopleIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <Link
-                  onClick={handleLinkClick}
-                  activeClass="active"
-                  to="intro-container"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={0}
-                >
+            <Link
+              onClick={handleLinkClick}
+              activeClass="active"
+              to="intro-container"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={0}
+            >
+              <li className="nav-list-item-mobile">
+                <EmojiPeopleIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">Introduction</p>
-                </Link>
-                <NavigateNextIcon />
-              </div>
-            </li>
-            <li className="nav-list-item-mobile">
-              <InfoIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <Link
-                  onClick={handleLinkClick}
-                  activeClass="active"
-                  to="about-section-header"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={0}
-                >
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              activeClass="active"
+              to="about-section-header"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={0}
+            >
+              <li className="nav-list-item-mobile">
+                <InfoIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">About</p>
-                </Link>
-                <NavigateNextIcon />
-              </div>
-            </li>
-            <li className="nav-list-item-mobile">
-              <AppsIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <Link
-                  onClick={handleLinkClick}
-                  activeClass="active"
-                  to="projects-section-header"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={0}
-                >
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              activeClass="active"
+              to="projects-section-header"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={0}
+            >
+              <li className="nav-list-item-mobile">
+                <AppsIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">Projects</p>
-                </Link>
-                <NavigateNextIcon />
-              </div>
-            </li>
-            <li className="nav-list-item-mobile">
-              <ConnectWithoutContactIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <Link
-                  onClick={handleLinkClick}
-                  activeClass="active"
-                  to="contact-header"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={0}
-                >
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              activeClass="active"
+              to="contact-header"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={0}
+            >
+              <li className="nav-list-item-mobile">
+                <ConnectWithoutContactIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">Contact</p>
-                </Link>
-                <NavigateNextIcon />
-              </div>
-            </li>
-            <li className="nav-list-item-mobile">
-              <GitHubIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <a
-                  className="nav-list-item-anchor"
-                  href={"https://github.com/leoarthurwall"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </Link>
+            <a
+              className="nav-list-item-anchor"
+              href={"https://github.com/leoarthurwall"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="nav-list-item-mobile">
+                <GitHubIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">GitHub</p>
-                </a>
-                <NavigateNextIcon />
-              </div>
-            </li>
-            <li className="nav-list-item-mobile">
-              <LinkedInIcon />
-              <div className="nav-list-item-mobile-inner-div">
-                <a
-                  className="nav-list-item-anchor"
-                  href={"https://www.linkedin.com/in/leo-wall/"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </a>
+            <a
+              className="nav-list-item-anchor"
+              href={"https://www.linkedin.com/in/leo-wall/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="nav-list-item-mobile">
+                <LinkedInIcon />
+                <div className="nav-list-item-mobile-inner-div">
                   <p className="modal-menu-name">LinkedIn</p>
-                </a>
-                <NavigateNextIcon />
-              </div>
-            </li>
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </a>
             <a
               className="nav-list-item-anchor"
               href={`mailto:leowall93@gmail.com`}
