@@ -9,6 +9,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import InfoIcon from "@mui/icons-material/Info";
+import AppsIcon from "@mui/icons-material/Apps";
+import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 
 const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
   return (
@@ -58,32 +60,38 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               </div>
             </li>
             <li className="nav-list-item-mobile">
-              <Link
-                onClick={handleLinkClick}
-                activeClass="active"
-                to="projects-section-header"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={0}
-              >
-                <p className="modal-menu-name">Projects</p>
-              </Link>
-              <NavigateNextIcon />
+              <AppsIcon />
+              <div className="nav-list-item-mobile-inner-div">
+                <Link
+                  onClick={handleLinkClick}
+                  activeClass="active"
+                  to="projects-section-header"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={0}
+                >
+                  <p className="modal-menu-name">Projects</p>
+                </Link>
+                <NavigateNextIcon />
+              </div>
             </li>
             <li className="nav-list-item-mobile">
-              <Link
-                onClick={handleLinkClick}
-                activeClass="active"
-                to="contact-header"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={0}
-              >
-                <p className="modal-menu-name">Contact</p>
-              </Link>
-              <NavigateNextIcon />
+              <ConnectWithoutContactIcon />
+              <div className="nav-list-item-mobile-inner-div">
+                <Link
+                  onClick={handleLinkClick}
+                  activeClass="active"
+                  to="contact-header"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={0}
+                >
+                  <p className="modal-menu-name">Contact</p>
+                </Link>
+                <NavigateNextIcon />
+              </div>
             </li>
             <li className="nav-list-item-mobile">
               <GitHubIcon />
