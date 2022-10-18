@@ -8,6 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import InfoIcon from "@mui/icons-material/Info";
 
 const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
   return (
@@ -40,18 +41,21 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
               </div>
             </li>
             <li className="nav-list-item-mobile">
-              <Link
-                onClick={handleLinkClick}
-                activeClass="active"
-                to="about-section-header"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={0}
-              >
-                <p className="modal-menu-name">About</p>
-              </Link>
-              <NavigateNextIcon />
+              <InfoIcon />
+              <div className="nav-list-item-mobile-inner-div">
+                <Link
+                  onClick={handleLinkClick}
+                  activeClass="active"
+                  to="about-section-header"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={0}
+                >
+                  <p className="modal-menu-name">About</p>
+                </Link>
+                <NavigateNextIcon />
+              </div>
             </li>
             <li className="nav-list-item-mobile">
               <Link
