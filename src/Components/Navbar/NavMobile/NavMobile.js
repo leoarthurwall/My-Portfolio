@@ -95,14 +95,17 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
             </li>
             <li className="nav-list-item-mobile">
               <GitHubIcon />
-              <a
-                className="nav-list-item-anchor"
-                href={"https://github.com/leoarthurwall"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="modal-menu-name">GitHub</p>
-              </a>
+              <div className="nav-list-item-mobile-inner-div">
+                <a
+                  className="nav-list-item-anchor"
+                  href={"https://github.com/leoarthurwall"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="modal-menu-name">GitHub</p>
+                </a>
+                <NavigateNextIcon />
+              </div>
             </li>
             <li className="nav-list-item-mobile">
               <LinkedInIcon />
