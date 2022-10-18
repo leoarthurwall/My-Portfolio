@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 
 const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
   return (
@@ -22,18 +23,21 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
         <div className="nav-menu-modal-container">
           <ul className="nav-list-container-mobile">
             <li className="nav-list-item-mobile">
-              <Link
-                onClick={handleLinkClick}
-                activeClass="active"
-                to="intro-container"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={0}
-              >
-                <p className="modal-menu-name">Introduction</p>
-              </Link>
-              <NavigateNextIcon />
+              <EmojiPeopleIcon />
+              <div className="nav-list-item-mobile-inner-div">
+                <Link
+                  onClick={handleLinkClick}
+                  activeClass="active"
+                  to="intro-container"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={0}
+                >
+                  <p className="modal-menu-name">Introduction</p>
+                </Link>
+                <NavigateNextIcon />
+              </div>
             </li>
             <li className="nav-list-item-mobile">
               <Link
