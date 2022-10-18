@@ -109,37 +109,47 @@ const NavMobile = ({ menuClicked, handleMenuClick, handleLinkClick }) => {
             </li>
             <li className="nav-list-item-mobile">
               <LinkedInIcon />
-              <a
-                className="nav-list-item-anchor"
-                href={"https://www.linkedin.com/in/leo-wall/"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="modal-menu-name">LinkedIn</p>
-              </a>
+              <div className="nav-list-item-mobile-inner-div">
+                <a
+                  className="nav-list-item-anchor"
+                  href={"https://www.linkedin.com/in/leo-wall/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="modal-menu-name">LinkedIn</p>
+                </a>
+                <NavigateNextIcon />
+              </div>
             </li>
-            <li className="nav-list-item-mobile">
-              <EmailIcon />
-              <a
-                className="nav-list-item-anchor"
-                href={`mailto:leowall93@gmail.com`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="modal-menu-name">Email</p>
-              </a>
-            </li>
-            <li className="nav-list-item-mobile">
-              <ContactPageIcon />
-              <a
-                className="nav-list-item-anchor"
-                href={`Resume/ResumeLeoWall.pdf`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="modal-menu-name">CV</p>
-              </a>
-            </li>
+            <a
+              className="nav-list-item-anchor"
+              href={`mailto:leowall93@gmail.com`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="nav-list-item-mobile">
+                <EmailIcon />
+                <div className="nav-list-item-mobile-inner-div">
+                  <p className="modal-menu-name">Email</p>
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </a>
+
+            <a
+              className="nav-list-item-anchor"
+              href={`Resume/ResumeLeoWall.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="nav-list-item-mobile">
+                <ContactPageIcon />
+                <div className="nav-list-item-mobile-inner-div">
+                  <p className="modal-menu-name">CV</p>
+                  <NavigateNextIcon />
+                </div>
+              </li>
+            </a>
           </ul>
         </div>
       ) : null}

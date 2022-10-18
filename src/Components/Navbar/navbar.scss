@@ -125,10 +125,10 @@
      .nav-list-item-mobile:last-child{
         border-bottom: 1px solid rgba(#546A93, 0.3);
      }
-     .nav-list-item-mobile:nth-child(1n+5){
-        justify-content: start;
-        gap: 1rem;
-     }
+    //  .nav-list-item-mobile:nth-child(1n+5){
+    //     justify-content: start;
+    //     gap: 1rem;
+    //  }
 
      .nav-list-item-anchor{
         text-decoration: none;
