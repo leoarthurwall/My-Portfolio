@@ -19,13 +19,14 @@
     align-items: center;
     text-align: left;
     margin-top: 10vh; 
+    
 }
 .projects-section-main{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     height: auto;
+    flex-direction: column;
 }
 
 /* PROJECTS HEADER WORDING*/
