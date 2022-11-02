@@ -15,14 +15,25 @@ const ProjectIndividual = () => {
       id: 1,
     },
     {
-      image:"Images/PortfolioProjectImage.png",
-      title: "My portfolio Site",
-      summary: "My Portfolio Wep Page! See the journey from design right through to build. Making the site responsive to mobile and tablet was one of the big. learning milestones of this project",
-      technologies: ["React.js", "SCSS", "Figma", "mui Icons"],
-      github: "https://github.com/leoarthurwall/My-Portfolio",
-      website: "https://leowall.netlify.app/",
+      image:"Images/OneSourceImage.jpg",
+      title: "Responsive Website",
+      summary:
+        "A responsive website developed and inspired by a professional website. Check out the GitHub repo to compare both websites.",
+      technologies: ["React.js", "Styled Components"],
+      github: "https://github.com/leoarthurwall/Responsive-Website-Build",
+      website: "https://responsive-website-lw.netlify.app/",
       id: 2,
     },
+    // {
+    //   image:"Images/PortfolioProjectImage.png",
+    //   title: "My portfolio Site",
+    //   summary: "My Portfolio Wep Page! See the journey from design right through to build. Making the site responsive to mobile and tablet was one of the big. learning milestones of this project",
+    //   technologies: ["React.js", "SCSS", "Figma", "mui Icons"],
+    //   github: "https://github.com/leoarthurwall/My-Portfolio",
+    //   website: "https://leowall.netlify.app/",
+    //   id: 2,
+    // },
+
     // {
     //   image: "Images/HappyCamperProjectImage.png",
     //   title: "Happy Camper",
