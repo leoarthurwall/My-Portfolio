@@ -15,7 +15,7 @@ const ProjectIndividual = () => {
       id: 1,
     },
     {
-      image:"Images/OneSourceImage.jpg",
+      image:"Images/ResponsiveWebsiteImage.png",
       title: "Responsive Website",
       summary:
         "A responsive website developed and inspired by a professional website. Check out the GitHub repo to compare both websites.",
