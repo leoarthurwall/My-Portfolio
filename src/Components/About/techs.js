@@ -16,15 +16,17 @@ function AboutTechs() {
           <TechItem techName={"React.js"} />
           <TechItem techName={"Typescript"} />
           <TechItem techName={"Next.js"} />
+          <TechItem techName={"SwiftUI"} />
         </div>
         <div className="about-section-tech-body">
           <TechItem techName={"Git/Github"} />
           <TechItem techName={"Jest"} />
           <TechItem techName={"Cypress"} />
-          <TechItem techName={"SCSS"} />
+          <TechItem techName={"SASS"} />
           <TechItem techName={"Auth0"} />
           <TechItem techName={"Heroku"} />
           <TechItem techName={"Netlify"} />
+          <TechItem techName={"Styled Components"} />
         </div>
         <div className="about-section-tech-body">
           <TechItem techName={"Node.js"} />
@@ -33,7 +35,8 @@ function AboutTechs() {
           <TechItem techName={"Firebase"} />
           <TechItem techName={"AWS"} />
           <TechItem techName={"Miro"} />
-          <TechItem techName={"Styled Components"} />
+          <TechItem techName={"VS Code"} />
+          <TechItem techName={"XCode"} />
         </div>
       </div>
     </div>
