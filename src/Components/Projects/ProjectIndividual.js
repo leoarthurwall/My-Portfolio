@@ -74,7 +74,7 @@ const ProjectIndividual = () => {
       image: "Images/EShop.png",
       title: "ASUS Online Shop",
       summary: "Welcome to the ASUS online shop. Find the latest fashion for  men and women.",
-      technologies: ["React.js", "Styled Components", "REST API", "useContext", "React Router"],
+      technologies: ["React.js", "RestAPI", "useContext", "React Router"],
       github: "https://github.com/leoarthurwall/ECommerceStore",
       website: "https://eshoplw.netlify.app/",
       id: 6,
