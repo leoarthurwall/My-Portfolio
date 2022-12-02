@@ -71,14 +71,23 @@ const ProjectIndividual = () => {
       id: 5,
     },
     {
-      image: "Images/todoCover.png",
-      title: "Todo App",
-      summary: "The CRUD todo app. Create, Read, update & Delete your todos. They are also saved to local storage so you can come back to them, whenever you feel like",
-      technologies: ["React.js", "CSS", "heroIcons",],
-      github: "https://github.com/leoarthurwall/new-todo-list",
-      website: "https://leowall-todo.netlify.app/",
+      image: "Images/EShop.png",
+      title: "ASUS E-commerse clothes shop",
+      summary: "Welcome to the ASUS online shop. Find the latest fashion for  men and women.",
+      technologies: ["React.js", "Styled Components", "REST API", "useContext", "React Router"],
+      github: "https://github.com/leoarthurwall/ECommerceStore",
+      website: "https://eshoplw.netlify.app/",
       id: 6,
     },
+    // {
+    //   image: "Images/todoCover.png",
+    //   title: "Todo App",
+    //   summary: "The CRUD todo app. Create, Read, update & Delete your todos. They are also saved to local storage so you can come back to them, whenever you feel like",
+    //   technologies: ["React.js", "CSS", "heroIcons",],
+    //   github: "https://github.com/leoarthurwall/new-todo-list",
+    //   website: "https://leowall-todo.netlify.app/",
+    //   id: 6,
+    // },
    
   ];
   console.log(design[0].technologies);
