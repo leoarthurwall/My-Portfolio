@@ -63,7 +63,7 @@ const ProjectIndividual = () => {
     },
     {
       image: "Images/WeatherCoverImage.jpg",
-      title: "Weather App",
+      title: "Countries App",
       summary: "Search for the current weather in any location using this weather app.",
       technologies: ["React.js", "CSS", "Axios",],
       github: "https://github.com/leoarthurwall/Weather-App",
@@ -88,7 +88,15 @@ const ProjectIndividual = () => {
     //   website: "https://leowall-todo.netlify.app/",
     //   id: 6,
     // },
-   
+    // {
+    //   image: "Images/WeatherCoverImage.jpg",
+    //   title: "Weather App",
+    //   summary: "Search for the current weather in any location using this weather app.",
+    //   technologies: ["React.js", "CSS", "Axios",],
+    //   github: "https://github.com/leoarthurwall/Weather-App",
+    //   website: "https://leowall-weather.netlify.app/",
+    //   id: 5,
+    // },
   ];
   console.log(design[0].technologies);
   return (
