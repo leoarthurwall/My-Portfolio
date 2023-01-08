@@ -39,6 +39,10 @@
     padding: 0px;
     margin: 0px;
 }
+.intro-main-text-name em {
+    color: $heading-text-colors;
+    font-style: normal;
+}
 .intro-main-text-role {
     font-family: $font-family;
     font-style: normal;
