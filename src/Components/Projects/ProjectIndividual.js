@@ -62,12 +62,12 @@ const ProjectIndividual = () => {
       id: 4,
     },
     {
-      image: "Images/WeatherCoverImage.jpg",
+      image: "Images/countriesImage.jpg",
       title: "Countries App",
-      summary: "Search for the current weather in any location using this weather app.",
-      technologies: ["React.js", "CSS", "Axios",],
-      github: "https://github.com/leoarthurwall/Weather-App",
-      website: "https://leowall-weather.netlify.app/",
+      summary: "Search for any country around the world on this responsive app.",
+      technologies: ["React.js", "Typescript", "API", "Styled Cpnts"],
+      github: "https://github.com/leoarthurwall/countries",
+      website: "https://countrieslw.netlify.app/",
       id: 5,
     },
     {
